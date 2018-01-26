@@ -29,7 +29,7 @@ public class ChangeableTextScript : MonoBehaviour {
 
         selected = options[0];
 
-        GetComponent<RectTransform>().sizeDelta = new Vector2(26 * GetLongestOption(optionslist), 67);
+        GetComponent<RectTransform>().sizeDelta = new Vector2(28 * GetLongestOption(optionslist), 67);
     }
 
     int GetLongestOption(List<OptionData> optionslist)

@@ -6,10 +6,10 @@ using UnityEngine.UI;
 
 public class CharacterScript : MonoBehaviour
 {
+    public Sprite[] Sprites;
 
-
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -17,4 +17,14 @@ public class CharacterScript : MonoBehaviour
 	void Update () {
 		
 	}
+
+    public void SetMood(int score)
+    {
+        if (score < 0)
+            GetComponent<Image>().sprite = Sprites[2];
+        if (score == 0)
+            GetComponent<Image>().sprite = Sprites[0];
+        if (score > 0)
+            GetComponent<Image>().sprite = Sprites[1];
+    }
 }
