@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224292543649769912}
   - component: {fileID: 222006811239459598}
   - component: {fileID: 114678686653822084}
+  - component: {fileID: 114682136924819016}
   m_Layer: 5
   m_Name: NotePre
   m_TagString: Untagged
@@ -55,6 +56,21 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114682136924819016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1238174029054900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d3a8540d11ef64886a8e1d17ef5477, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normalTextPre: {fileID: 1498690836855950, guid: fcfcf654afd1b5d4f95964a6c1e30331,
+    type: 2}
+  changeableTextPre: {fileID: 1397965680691330, guid: 3c554ab268d61664093d2d9f8e49663b,
+    type: 2}
 --- !u!222 &222006811239459598
 CanvasRenderer:
   m_ObjectHideFlags: 1
