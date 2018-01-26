@@ -29,16 +29,24 @@ public class GameManager : MonoBehaviour {
         gameScore = 0;
         nextNoteId = 0;
 
-        CurrNote = Instantiate(NotePre, ClassObj.transform);
-        SetButtons(CurrNote.GetComponent<NoteCreator>().data.author);
+        CreateNewNote();
     }
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            ClassObj.GetComponent<Animator>().SetBool("right", false);
-            ClassObj.GetComponent<Animator>().SetBool("left", false);
+            Animator anim = ClassObj.GetComponent<Animator>();
+
+            if (anim.GetBool("right") || anim.GetBool("left"))
+            {
+                Destroy(CurrNote);
+                rightBtn.active = false;
+                leftBtn.active = false;
+            }
+
+            anim.SetBool("right", false);
+            anim.SetBool("left", false);
         }
     }
 
@@ -103,5 +111,11 @@ public class GameManager : MonoBehaviour {
         }
 
         return NextNoteId;
+    }
+
+    public void CreateNewNote()
+    {
+        CurrNote = Instantiate(NotePre, ClassObj.transform);
+        SetButtons(CurrNote.GetComponent<NoteCreator>().data.author);
     }
 }

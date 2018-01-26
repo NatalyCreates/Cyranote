@@ -83,9 +83,9 @@ public class NoteCreator : MonoBehaviour
 
         return SelectedList;
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 }
