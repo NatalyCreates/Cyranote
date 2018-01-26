@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour {
     public static GameManager Instance;
 
     [SerializeField] GameObject NotePre;
-    [SerializeField] GameObject ClossObj;
+    [SerializeField] GameObject ClassObj;
 
     GameObject CurrNote;
 
@@ -23,15 +23,21 @@ public class GameManager : MonoBehaviour {
         gameScore = 0;
         nextNoteId = 0;
 
-        CurrNote = Instantiate(NotePre, ClossObj.transform);
+        CurrNote = Instantiate(NotePre, ClassObj.transform);
     }
 
     public NoteData GetNewNote() {
         return story.notes[nextNoteId];
     }
 
-    private void BtnSend(bool isRight)
+    public void BtnSend(bool isRight)
     {
-        gameScore += CurrNote.GetComponent<NoteCreator>().GetScore();
+        int noteScore = CurrNote.GetComponent<NoteCreator>().GetScore();
+        gameScore += noteScore;
+
+        if (isRight)
+            ClassObj.GetComponent<Animator>().SetBool("right", true);
+        else
+            ClassObj.GetComponent<Animator>().SetBool("left", true);
     }
 }

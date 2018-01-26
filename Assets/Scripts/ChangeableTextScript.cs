@@ -8,7 +8,7 @@ public class ChangeableTextScript : MonoBehaviour {
     [SerializeField] Text text;
     [SerializeField] List<OptionData> options;
 
-    OptionData selected;
+    public OptionData selected;
     int count = 0;
 
 	// Use this for initialization

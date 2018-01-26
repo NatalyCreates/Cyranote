@@ -14,6 +14,8 @@ public class NoteCreator : MonoBehaviour
 
     NoteData data;
 
+    List<ChangeableTextScript> changeableList = new List<ChangeableTextScript>();
+
 	// Use this for initialization
 	void Start () {
         data = GameManager.Instance.GetNewNote();
@@ -47,6 +49,7 @@ public class NoteCreator : MonoBehaviour
                 changeableTextObj.GetComponent<ChangeableTextScript>().InitOptions(data.madlibs[changeableCount].options);
                 changeableCount++;
                 lastTransform = changeableTextObj.transform;
+                changeableList.Add(changeableTextObj.GetComponent<ChangeableTextScript>());
             }
             else
             {
@@ -71,7 +74,15 @@ public class NoteCreator : MonoBehaviour
 
     public int GetScore()
     {
-        return 0;
+        int sum = 0;
+
+        foreach (ChangeableTextScript currOption in changeableList)
+        {
+            sum += currOption.selected.scoreEffect;
+        }
+
+        Debug.Log("sum = " + sum.ToString());
+        return sum;
     }
 	
 	// Update is called once per frame
