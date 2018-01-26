@@ -1,23 +1,15 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : SingletonBehaviour<GameManager> {
+
+    private StoryData story;
 
     public void Start() {
-        StoryData s = DataLoader.LoadStory();
-        foreach (NoteData n in s.notes)
-        {
-            Debug.Log(n.content);
-            string note = "";
-            string[] parts = n.content.Split('$');
-            List<string> noteParts = new List<string>();
-
-            foreach (string a in parts)
-            {
-                Debug.Log(a);
-            }
-        }
-
+        story = DataLoader.LoadStory();
     }
 
+    public NoteData GetNewNote() {
+        return story.notes[0];
+    }
 }

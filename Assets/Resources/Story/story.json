@@ -4,51 +4,57 @@
         {
             "author": 0,
             "content": "I was a $. $",
-			"options":
+			"madlibs":
 			[
-				[
-					{
-						"text": "dinosaur",
-						"scoreEffect": 0,
-						"flavor": "$DINO"
-					},
-					{
-						"text": "pirate",
-						"scoreEffect": 0,
-						"flavor": "$PIRATE"
-					},
-					{
-						"text": "princess",
-						"scoreEffect": 0,
-						"flavor": "$PRINCESS"
-					}
-				],
-				[
-					{
-						"text": "What is wrong with you?",
-						"scoreEffect": -10,
-						"flavor": ""
-					},
-					{
-						"text": "It’s OK you forgot.",
-						"scoreEffect": 10,
-						"flavor": ""
-					}
-				]
+				{
+					"options":
+					[
+						{
+							"text": "dinosaur",
+							"scoreEffect": 0,
+							"flavor": "$DINO"
+						},
+						{
+							"text": "pirate",
+							"scoreEffect": 0,
+							"flavor": "$PIRATE"
+						},
+						{
+							"text": "princess",
+							"scoreEffect": 0,
+							"flavor": "$PRINCESS"
+						}
+					]
+				},
+				{
+					"options":
+					[
+						{
+							"text": "What is wrong with you?",
+							"scoreEffect": -10,
+							"flavor": ""
+						},
+						{
+							"text": "It’s OK you forgot.",
+							"scoreEffect": 10,
+							"flavor": ""
+						}
+					]
+				}
 			]
 		},
 		{
-            "author": 1,
-            "content": "Never mind.",
-			"options": []
+            "author": 0,
+            "content": "I was a $. $",
+			"madlibs": []
 		}
 	],
 	"endings":
 	[
 		{
-            "author": 1,
+            "author": 0,
             "content": "Bye!",
-			"options": []
+			"madlibs": []
 		}
 	]
 }
