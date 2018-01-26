@@ -1,12 +1,16 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour {
     
     private StoryData story;
+    private NoteData currentNoteData;
     private int gameScore;
     private int nextNoteId;
     public static GameManager Instance;
+
+    private bool introShowing = true;
 
     [SerializeField] GameObject NotePre;
     [SerializeField] GameObject ClassObj;
@@ -18,6 +22,7 @@ public class GameManager : MonoBehaviour {
     [SerializeField] CharacterScript leftCharacter;
 
     GameObject CurrNote;
+    [SerializeField] GameObject introPanel;
 
     public void Awake() {
         if (Instance == null) Instance = this;
@@ -27,15 +32,20 @@ public class GameManager : MonoBehaviour {
     public void Start() {
         story = DataLoader.LoadStory();
         gameScore = 0;
-        nextNoteId = 0;
-
-        CreateNewNote();
+        currentNoteData = story.notes[0];
+        nextNoteId = currentNoteData.noteId;
     }
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
+            if (introShowing)
+            {
+                introPanel.SetActive(false);
+                introShowing = false;
+            }
+
             Animator anim = ClassObj.GetComponent<Animator>();
 
             if (anim.GetBool("right") || anim.GetBool("left"))
@@ -51,7 +61,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public NoteData GetNewNote() {
-        return story.notes[nextNoteId];
+        return currentNoteData;
     }
 
     void SetButtons(Enums.Character character)
@@ -84,6 +94,9 @@ public class GameManager : MonoBehaviour {
             leftCharacter.SetMood(noteScore);
             ClassObj.GetComponent<Animator>().SetBool("left", true);
         }
+
+        nextNoteId = GetNextNoteId(selectedList);
+        currentNoteData = story.notes.Where(n => n.noteId == nextNoteId).Select(n => n).ToList()[0];
     }
 
     int CalculateTotal(List<OptionData> selectedList)
@@ -100,7 +113,8 @@ public class GameManager : MonoBehaviour {
 
     int GetNextNoteId(List<OptionData> selectedList)
     {
-        int NextNoteId = 0;
+        int NextNoteId = currentNoteData.nextNoteId;
+        Debug.Log("NextNoteId = " + NextNoteId);
 
         foreach (OptionData selected in selectedList)
         {
@@ -110,12 +124,13 @@ public class GameManager : MonoBehaviour {
             }
         }
 
+        Debug.Log("NextNoteId = " + NextNoteId);
         return NextNoteId;
     }
 
     public void CreateNewNote()
     {
         CurrNote = Instantiate(NotePre, ClassObj.transform);
-        SetButtons(CurrNote.GetComponent<NoteCreator>().data.author);
+        SetButtons(currentNoteData.author);
     }
 }
