@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class ChangeableTextScript : MonoBehaviour {
 
     [SerializeField] Text text;
-    [SerializeField] List<string> options;
+    [SerializeField] List<OptionData> options;
 
-    string selected;
+    OptionData selected;
     int count = 0;
 
 	// Use this for initialization
@@ -19,15 +19,30 @@ public class ChangeableTextScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        text.text = selected;
+        text.text = selected.text;
 
     }
 
-    public void InitOptions(List<string> optionslist)
+    public void InitOptions(List<OptionData> optionslist)
     {
         options = optionslist;
 
         selected = options[0];
+
+        GetComponent<RectTransform>().sizeDelta = new Vector2(26 * GetLongestOption(optionslist), 67);
+    }
+
+    int GetLongestOption(List<OptionData> optionslist)
+    {
+        int max = 0;
+
+        foreach(OptionData option in optionslist)
+        {
+            if (option.text.Length > max)
+                max = option.text.Length;
+        }
+
+        return max;
     }
 
     public void BtnUp()

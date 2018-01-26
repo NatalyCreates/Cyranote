@@ -71,6 +71,8 @@ MonoBehaviour:
     type: 2}
   changeableTextPre: {fileID: 1397965680691330, guid: 3c554ab268d61664093d2d9f8e49663b,
     type: 2}
+  textWidth: 365
+  textHight: 100
 --- !u!222 &222006811239459598
 CanvasRenderer:
   m_ObjectHideFlags: 1
