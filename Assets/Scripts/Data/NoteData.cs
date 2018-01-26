@@ -6,11 +6,11 @@ public class NoteData {
     
     public Enums.Character author;
     public string content;
-    public List<List<OptionData>> options;
+    public List<MadlibData> madlibs;
 
-    public NoteData(Enums.Character author, string content, List<List<OptionData>> options) {
+    public NoteData(Enums.Character author, string content, List<MadlibData> madlibs) {
         this.author = author;
         this.content = content;
-        this.options = options;
+        this.madlibs = madlibs;
     }
 }
