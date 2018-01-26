@@ -4,7 +4,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
     
     private StoryData story;
-
+    private int gameScore;
+    private int nextNoteId;
     public static GameManager Instance;
 
     public void Awake() {
@@ -14,9 +15,15 @@ public class GameManager : MonoBehaviour {
 
     public void Start() {
         story = DataLoader.LoadStory();
+        gameScore = 0;
+        nextNoteId = 0;
     }
 
     public NoteData GetNewNote() {
-        return story.notes[0];
+        return story.notes[nextNoteId];
+    }
+
+    private void ProcessLastChoiceData(ChoiceData choice){
+        gameScore += choice.scoreEffect;
     }
 }

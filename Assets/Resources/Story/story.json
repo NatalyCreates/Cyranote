@@ -1,59 +1,67 @@
 {
-    "notes":
+	"notes":
 	[
+    {
+      "noteId": 0,
+      "author": 0,
+      "content": "I was a ;$;$;#;yosi test",
+
+
+      "triggersEndingCheck": false,
+      "madlibs": [
         {
-            "author": 0,
-            "content": "I was a ;$;$;#;yosi test",
-			"madlibs":
-			[
-				{
-					"options":
-					[
-						{
-							"text": "dinosaur",
-							"scoreEffect": 0,
-							"flavor": "$DINO"
-						},
-						{
-							"text": "pirate",
-							"scoreEffect": 0,
-							"flavor": "$PIRATE"
-						},
-						{
-							"text": "princess",
-							"scoreEffect": 0,
-							"flavor": "$PRINCESS"
-						}
-					]
-				},
-				{
-					"options":
-					[
-						{
-							"text": "What is wrong with you?",
-							"scoreEffect": -10,
-							"flavor": ""
-						},
-						{
-							"text": "It’s OK you forgot.",
-							"scoreEffect": 10,
-							"flavor": ""
-						}
-					]
-				}
-			]
-		},
+          "options": [
+            {
+              "text": "dinosaur",
+              "scoreEffect": 0,
+              "flavor": "$DINO",
+              "nextNoteId": 1
+            },
+            {
+              "text": "pirate",
+              "scoreEffect": 0,
+              "flavor": "$PIRATE",
+              "nextNoteId": 1
+            },
+            {
+              "text": "princess",
+              "scoreEffect": 0,
+              "flavor": "$PRINCESS",
+              "nextNoteId": 1
+            }
+          ]
+        },
+        {
+          "options": [
+            {
+              "text": "What is wrong with you?",
+              "scoreEffect": -10,
+              "flavor": ""
+            },
+            {
+              "text": "It’s OK you forgot.",
+              "scoreEffect": 10,
+              "flavor": ""
+            }
+          ]
+        }
+      ]
+    },
 		{
+			"noteId": 1,
             "author": 0,
-            "content": "I was a $. $",
+            "content": "OK",
+			"triggersEndingCheck": false,
 			"madlibs": []
 		}
 	],
 	"endings":
 	[
 		{
+			"noteId": -1,
             "author": 0,
             "content": "Bye!",
+			"triggersEndingCheck": false,
 			"madlibs": []
 		}
 	]
