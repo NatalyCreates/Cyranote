@@ -1,0 +1,54 @@
+{
+    "notes":
+	[
+        {
+            "author": 0,
+            "content": "I was a $. $",
+			"options":
+			[
+				[
+					{
+						"text": "dinosaur",
+						"scoreEffect": 0,
+						"flavor": "$DINO"
+					},
+					{
+						"text": "pirate",
+						"scoreEffect": 0,
+						"flavor": "$PIRATE"
+					},
+					{
+						"text": "princess",
+						"scoreEffect": 0,
+						"flavor": "$PRINCESS"
+					}
+				],
+				[
+					{
+						"text": "What is wrong with you?",
+						"scoreEffect": -10,
+						"flavor": ""
+					},
+					{
+						"text": "It’s OK you forgot.",
+						"scoreEffect": 10,
+						"flavor": ""
+					}
+				]
+			]
+		},
+		{
+            "author": 1,
+            "content": "Never mind.",
+			"options": []
+		}
+	],
+	"endings":
+	[
+		{
+            "author": 1,
+            "content": "Bye!",
+			"options": []
+		}
+	]
+}
