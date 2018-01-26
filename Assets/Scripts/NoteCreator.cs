@@ -12,7 +12,7 @@ public class NoteCreator : MonoBehaviour
     [SerializeField]float textWidth;
     [SerializeField]float textHight;
 
-    NoteData data;
+    public NoteData data;
 
     List<ChangeableTextScript> changeableList = new List<ChangeableTextScript>();
 
@@ -66,23 +66,22 @@ public class NoteCreator : MonoBehaviour
                     textObj.GetComponent<RectTransform>().anchoredPosition = writingPos;
                 }
                 textObj.GetComponent<Text>().text = contentPart;
-                textObj.GetComponent<RectTransform>().sizeDelta = new Vector2(25 * contentPart.Length, 67);
+                textObj.GetComponent<RectTransform>().sizeDelta = new Vector2(28 * contentPart.Length, 67);
                 lastTransform = textObj.transform;
             }
         }
 	}
 
-    public int GetScore()
+    public List<OptionData> GetSelected()
     {
-        int sum = 0;
+        List<OptionData> SelectedList = new List<OptionData>();
 
         foreach (ChangeableTextScript currOption in changeableList)
         {
-            sum += currOption.selected.scoreEffect;
+            SelectedList.Add(currOption.selected);
         }
 
-        Debug.Log("sum = " + sum.ToString());
-        return sum;
+        return SelectedList;
     }
 	
 	// Update is called once per frame
