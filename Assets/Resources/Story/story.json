@@ -6,6 +6,7 @@
 		  "author": 0,
 		  "content": "Is your dad mad at me?;#;I tried to call you yesterday and he sounded like,;#;well, ;$",
 		  "triggersEndingCheck": false,
+		  "nextNoteId": 15,
 		  "madlibs":
 		  [
 			{
@@ -32,6 +33,7 @@
             "author": 1,
             "content": "Dunno.",
 			"triggersEndingCheck": false,
+			"nextNoteId": 16,
 			"madlibs": []
 		},
 		{
@@ -39,6 +41,7 @@
             "author": 0,
             "content": "Maybe the ;$;#;didn't do their best today",
 			"triggersEndingCheck": false,
+			"nextNoteId": 17,
 			"madlibs":
 			[
 				{
@@ -101,6 +104,7 @@
             "author": 1,
             "content": "Dunno.;#;But I have no idea what's buzzing in his bonnet.",
 			"triggersEndingCheck": false,
+			"nextNoteId": 19,
 			"madlibs": []
 		},
 		{
@@ -108,6 +112,15 @@
             "author": 1,
             "content": "You know my dad.;#;But I have no idea what's buzzing in his bonnet.",
 			"triggersEndingCheck": false,
+			"nextNoteId": 19,
+			"madlibs": []
+		},
+		{
+			"noteId": 19,
+            "author": 0,
+            "content": "I mean, we used to be tight!;#;You know he signed my permission slip to go to Utah last year?;#;My dad \"forgot\".;#;He also bought beers for us for the Star Wars premiere.",
+			"triggersEndingCheck": false,
+			"nextNoteId": 1000,
 			"madlibs": []
 		}
 	],
