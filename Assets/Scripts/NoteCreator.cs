@@ -68,6 +68,11 @@ public class NoteCreator : MonoBehaviour
             }
         }
 	}
+
+    public int GetScore()
+    {
+        return 0;
+    }
 	
 	// Update is called once per frame
 	void Update () {
