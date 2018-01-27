@@ -11,10 +11,10 @@ public class CharacterScript : MonoBehaviour
     public void SetMood(int score)
     {
         if (score < 0)
-            GetComponent<Image>().sprite = negative;
+            GetComponent<SpriteRenderer>().sprite = negative;
         if (score == 0)
-            GetComponent<Image>().sprite = neutral;
+            GetComponent<SpriteRenderer>().sprite = neutral;
         if (score > 0)
-            GetComponent<Image>().sprite = positive;
+            GetComponent<SpriteRenderer>().sprite = positive;
     }
 }

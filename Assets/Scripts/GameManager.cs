@@ -34,6 +34,9 @@ public class GameManager : MonoBehaviour {
     [SerializeField] GameObject allieAvatar;
     [SerializeField] GameObject bethAvatar;
 
+    // Anim Arms
+    public Animator arms;
+
     private GameObject currentNoteObj;
 
     public void Awake() {
