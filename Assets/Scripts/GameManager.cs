@@ -148,8 +148,9 @@ public class GameManager : MonoBehaviour {
             Debug.Log("Note Score was: " + noteScore);
             noteScore = selectedOptions.Sum(opt => opt.scoreEffect);
             Debug.Log("Note Score was: " + noteScore);
-            gameScore += noteScore;
         }
+
+        gameScore += noteScore;
 
         Destroy(currentNoteObj);
 

@@ -197,22 +197,12 @@
     },
     {
       "noteId": 60,
+	  "scoreValue": -1,
       "author": 1,
-      "content": "$",
+      "content": "Let's talk after class.",
       "triggersEndingCheck": false,
       "nextNoteId": -1,
-      "madlibs": [
-        {
-          "options": [
-            {
-              "text": "Let's talk after class.",
-              "scoreEffect": -1,
-              "flavor": "",
-              "nextNoteId": 70
-            }
-          ]
-        }
-      ]
+      "madlibs": []
     },
     {
       "noteId": 70,
