@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour {
     private int GAME_OVER_NOTE_ID = -500;
     private int END_STORY_NOTE_ID = 5000;
 
+    private float INSTRUCTIONS_READING_TIME = 3f;
+
     private StoryData story;
     public NoteData currentNoteData;
 
@@ -22,6 +24,7 @@ public class GameManager : MonoBehaviour {
 
     // Intro
     [SerializeField] GameObject introPanel;
+    [SerializeField] GameObject introInstruction;
 
     // Notes
     [SerializeField] GameObject noteAlliePrefab;
@@ -64,6 +67,11 @@ public class GameManager : MonoBehaviour {
         Debug.Log("Current Note Id = " + currentNoteData.noteId);
     }
     
+    private IEnumerator ShowInstruction() {
+        yield return new WaitForSeconds(INSTRUCTIONS_READING_TIME);
+        introInstruction.SetActive(true);
+    }
+
     public IEnumerator StartNoteAnim() {
         yield return new WaitForSeconds(1f);
         arms.SetInteger("SendNote", 0);
@@ -101,7 +109,7 @@ public class GameManager : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && Time.timeSinceLevelLoad > 3f)
+        if (Input.GetMouseButtonDown(0) && Time.timeSinceLevelLoad > INSTRUCTIONS_READING_TIME)
         {
             if (introShowing)
             {
