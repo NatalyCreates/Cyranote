@@ -12,15 +12,14 @@ public class NoteCreator : MonoBehaviour
     [SerializeField]float textWidth;
     [SerializeField]float textHight;
 
-    public NoteData data;
+    private NoteData noteData;
 
     List<ChangeableTextScript> changeableList = new List<ChangeableTextScript>();
 
-	// Use this for initialization
 	void Start () {
-        data = GameManager.Instance.GetNewNote();
+        noteData = GameManager.Instance.currentNoteData;
 
-        string[] contentStructure = data.content.Split(';');
+        string[] contentStructure = noteData.content.Split(';');
 
         int changeableCount = 0;
         Transform lastTransform = null;
@@ -46,7 +45,7 @@ public class NoteCreator : MonoBehaviour
                     changeableTextObj = Instantiate(changeableTextPre, new Vector3(0, 0, 0), Quaternion.identity, transform);
                     changeableTextObj.GetComponent<RectTransform>().anchoredPosition = writingPos;
                 }
-                changeableTextObj.GetComponent<ChangeableTextScript>().InitOptions(data.madlibs[changeableCount].options);
+                changeableTextObj.GetComponent<ChangeableTextScript>().InitOptions(noteData.madlibs[changeableCount].options);
                 changeableCount++;
                 lastTransform = changeableTextObj.transform;
                 changeableList.Add(changeableTextObj.GetComponent<ChangeableTextScript>());
@@ -74,18 +73,13 @@ public class NoteCreator : MonoBehaviour
 
     public List<OptionData> GetSelected()
     {
-        List<OptionData> SelectedList = new List<OptionData>();
+        List<OptionData> selectedList = new List<OptionData>();
 
         foreach (ChangeableTextScript currOption in changeableList)
         {
-            SelectedList.Add(currOption.selected);
+            selectedList.Add(currOption.selected);
         }
 
-        return SelectedList;
+        return selectedList;
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }
