@@ -125,7 +125,6 @@ public class GameManager : MonoBehaviour {
             sendToAllieButton.SetActive(false);
             sendToBethButton.SetActive(false);
             Debug.Log("GAME END");
-
         }
         else
         {
@@ -175,9 +174,10 @@ public class GameManager : MonoBehaviour {
         OverrideNextNoteId(selectedOptions);
         Debug.Log("Next Note Id = " + nextNoteId);
         
-        if (nextNoteId == END_NOTE_ID)
+        if (nextNoteId == 5000)
         {
-            Debug.Log("GAME END");
+            if (gameScore <= 0) nextNoteId = 1360;
+            else nextNoteId = 2360;
         }
         else
         {
