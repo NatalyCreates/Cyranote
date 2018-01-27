@@ -1363,7 +1363,6 @@ GameObject:
   - component: {fileID: 4788315530304504}
   - component: {fileID: 20837792453165502}
   - component: {fileID: 124678410903875346}
-  - component: {fileID: 81883214064024308}
   - component: {fileID: 114912322118653864}
   - component: {fileID: 82545025067255794}
   m_Layer: 0
@@ -2516,7 +2515,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1813330912076742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1286, y: 125.95986, z: -14.25}
+  m_LocalPosition: {x: -2000, y: 125, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4788315530304504}
@@ -3136,7 +3135,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 764fb599a45bb3048adedf08fef80e35, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4158,13 +4157,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!81 &81883214064024308
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1856137847271654}
-  m_Enabled: 1
 --- !u!82 &82213646406197726
 AudioSource:
   m_ObjectHideFlags: 1

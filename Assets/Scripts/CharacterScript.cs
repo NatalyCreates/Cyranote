@@ -6,25 +6,15 @@ using UnityEngine.UI;
 
 public class CharacterScript : MonoBehaviour
 {
-    public Sprite[] Sprites;
-
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public Sprite neutral, positive, negative;
 
     public void SetMood(int score)
     {
         if (score < 0)
-            GetComponent<Image>().sprite = Sprites[2];
+            GetComponent<Image>().sprite = negative;
         if (score == 0)
-            GetComponent<Image>().sprite = Sprites[0];
+            GetComponent<Image>().sprite = neutral;
         if (score > 0)
-            GetComponent<Image>().sprite = Sprites[1];
+            GetComponent<Image>().sprite = positive;
     }
 }
