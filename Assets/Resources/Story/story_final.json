@@ -12,7 +12,7 @@
     {
       "noteId": 10,
       "author": 0,
-      "content": "      ;$ ",
+      "content": "      ;$",
       "triggersEndingCheck": false,
       "nextNoteId": -1,
       "madlibs": [
@@ -37,7 +37,7 @@
     {
       "noteId": 20,
       "author": 1,
-      "content": "We're passing notes now, are we?:#:This is sooo ;$",
+      "content": "We're passing notes now, are we?;#;This is sooo;$",
       "triggersEndingCheck": false,
       "nextNoteId": -1,
       "madlibs": [
@@ -412,13 +412,13 @@
         {
           "options": [
             {
-              "text": "\"Mommy Menstural Cup\";#;and \"Daddy Dirt Race\"",
+              "text": "\"Mommy Menstural Cup\" and \"Daddy Dirt Race\"",
               "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": 160
             },
             {
-              "text": "\"Mommy Marathon\";#;and \"Papa Pedicure\"",
+              "text": "\"Mommy Marathon\" and \"Papa Pedicure\"",
               "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": 161

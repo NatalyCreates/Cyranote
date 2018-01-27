@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class DataLoader {
 
-    static readonly string storyPath = "Story/story";
+    static readonly string storyPath = "Story/story_final";
 
     public static StoryData LoadStory() {
         TextAsset t = Resources.Load<TextAsset>(storyPath);

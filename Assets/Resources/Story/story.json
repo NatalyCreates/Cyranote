@@ -3,6 +3,7 @@
     
     {
       "noteId": 0,
+	  "scoreValue": 0,
       "author": 0,
       "content": "hey beth",
       "triggersEndingCheck": false,
@@ -11,7 +12,7 @@
     {
       "noteId": 10,
       "author": 0,
-      "content": "$",
+      "content": "      ;$",
       "triggersEndingCheck": false,
       "nextNoteId": -1,
       "madlibs": [
@@ -19,7 +20,7 @@
           "options": [
             {
               "text": "hey beth!!!",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": 10
             },
@@ -67,7 +68,7 @@
     {
       "noteId": 30,
       "author": 0,
-      "content": "god, ;$;#;how much french merde can a girl take?;#; when will ms. johnson ;$;#;I mean, it's not as if any of this;#;will help us become the charming housewives;#;of saudi millionaires, right?",
+      "content": "god, ;$;#;how much French merde can a girl take?;#; when will ms. Johnson ;$;#;I mean, it's not as if any of this;#;will help us become the charming housewives;#;of saudi millionaires, right?",
       "triggersEndingCheck": false,
       "nextNoteId": -1,
       "madlibs": [
@@ -363,6 +364,7 @@
     },
     {
       "noteId": 121,
+	  "scoreValue": 0,
       "author": 1,
       "content": "You know my dad.;#;But I have no idea why;#;he'd be grumpy on the phone.",
       "triggersEndingCheck": false,
@@ -894,6 +896,7 @@
     },
     {
       "noteId": 290,
+	  "scoreValue": 1,
       "author": 1,
       "content": "You always had the best Mario moves,;#;like, amazing timing.;#;I just liked watching you, I think.;#;I guess I'm more of a Yoshi;#;than the hero that gets the princess",
       "triggersEndingCheck": false,
@@ -901,6 +904,7 @@
     },
     {
       "noteId": 291,
+	  "scoreValue": 1,
       "author": 1,
       "content": "You always were amazing in Prince of Persia.;#;I mostly liked watching you, I think.;#;I guess I'm more of a Shadow Prince than the hero;#;that gets the princess",
       "triggersEndingCheck": false,
@@ -908,6 +912,7 @@
     },
     {
       "noteId": 300,
+	  "scoreValue": 1,
       "author": 1,
       "content": "You make it sound like you never;#;kicked my ass in Street Fighter.;#;You sure knew how to pull off your Hadoukens!",
       "triggersEndingCheck": false,
@@ -915,6 +920,7 @@
     },
 	{
       "noteId": 310,
+	  "scoreValue": 0,
       "author": 0,
       "content": "Sure, I know how to kick ass.;#;On screen and off.;#;But do I still get my princess at the end?",
       "triggersEndingCheck": false,
@@ -922,6 +928,7 @@
     },
     {
       "noteId": 320,
+	  "scoreValue": 1,
       "author": 1,
       "content": "Sure you do.;#;You just need to put the One Ring on her finger.;#;Bling-bling!",
       "triggersEndingCheck": false,
@@ -929,6 +936,7 @@
     },
     {
       "noteId": 330,
+	  "scoreValue": 1,
       "author": 0,
       "content": "Aww. Who said I wanted to marry her;#;I just need someone I can beat;#;in Street Fighter again!",
       "triggersEndingCheck": false,
@@ -1089,7 +1097,7 @@
     {
       "noteId": 1360,
       "author": 1,
-      "content": "What do you want me to say? :$; ;#;I'm so embarassed... ;#;And seeing you every day in class;#;;$",
+      "content": "What do you want me to say? :$; ;#;I'm so embarrassed... ;#;And seeing you every day in class;#;;$",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 1370,
@@ -1098,13 +1106,13 @@
           "options": [
             {
               "text": "I'm terrified!",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "I feel so awkward!",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1114,13 +1122,13 @@
           "options": [
             {
               "text": "doesn't help!",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "makes it even worse!",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1140,13 +1148,13 @@
           "options": [
             {
               "text": "so dramatic.",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "Such a stuck-up bitch.",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1166,7 +1174,7 @@
           "options": [
             {
               "text": "What's your FUCKING problem?",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
@@ -1192,7 +1200,7 @@
           "options": [
             {
               "text": "That's not like you, Bee.",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
@@ -1218,13 +1226,13 @@
           "options": [
             {
               "text": "kill",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "disown",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
@@ -1240,31 +1248,31 @@
           "options": [
             {
               "text": "dumb",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "stupid",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "stupid",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "(admittedly cute)",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "deviant",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1284,13 +1292,13 @@
           "options": [
             {
               "text": "trying to suck my face off. How improper! What would mommy say?",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "begging for dat ass! Father dearest would blush!",
-              "scoreEffect": 0,
+              "scoreEffect": -4,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1346,7 +1354,7 @@
     {
       "noteId": 2360,
       "author": 1,
-      "content": "What do you want me to say? ;#;;$;;#;I'm so embarassed... ;#;And seeing you ;$ ",
+      "content": "What do you want me to say? ;#;;$;;#;I'm so embarrassed... ;#;And seeing you ;$ ",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 2370,
@@ -1773,7 +1781,8 @@
     },
     {
       "noteId": 10000,
-      "author": 0,
+	  "scoreValue": 1,
+      "author": 1,
       "content": "Ariel Yahav: Words, sounds, lists and sleep deprived humour.;#;Boris Ulyanskiy: Story, Writing;#;Carmin Bittermann: Sound Recording and Editing;#;Lynne Hurwitz: Game Design and Development, Vocals;#;Nadav Sheffer - Designer, Writer, Etc;#;Nataly Bendersky Shalem - Game Designer and Developer;#;Yosi Rozengarten - Game Designer & Developer;#;Ofir Hanin - Art Art Art",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
