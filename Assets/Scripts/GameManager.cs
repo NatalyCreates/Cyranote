@@ -57,8 +57,6 @@ public class GameManager : MonoBehaviour {
         currentNoteData = story.notes.Where(noteData => noteData.noteId == FIRST_NOTE_ID).Select(noteData => noteData).ToList()[0];
         nextNoteId = currentNoteData.nextNoteId;
         Debug.Log("Current Note Id = " + currentNoteData.noteId);
-
-        StartCoroutine(StartNoteAnim());
     }
     
     public IEnumerator StartNoteAnim() {
@@ -104,6 +102,7 @@ public class GameManager : MonoBehaviour {
             {
                 introPanel.SetActive(false);
                 introShowing = false;
+                StartCoroutine(StartNoteAnim());
             }
         }
     }
