@@ -1,0 +1,1815 @@
+{
+  "notes": [
+    
+    {
+      "noteId": 0,
+	  "scoreValue": 0,
+      "author": 0,
+      "content": "hey beth",
+      "triggersEndingCheck": false,
+      "nextNoteId": 10
+    },
+    {
+      "noteId": 10,
+      "author": 0,
+      "content": "      ;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "hey beth!!!",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 10
+            },
+            {
+              "text": "you know, i might like you with a huge nose...",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 20,
+      "author": 1,
+      "content": "We're passing notes now, are we?;#;This is sooo;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "you.",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 30
+            },
+            {
+              "text": 1980,
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 30
+            },
+            {
+              "text": "exciting!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 30,
+      "author": 0,
+      "content": "god, ;$;#;how much French merde can a girl take?;#; when will ms. Johnson ;$;#;I mean, it's not as if any of this;#;will help us become the charming housewives;#;of saudi millionaires, right?",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "this is BRUTAL!! slit my wrists, will ya?",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "i'm sooo bored...",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        },
+        {
+          "options": [
+            {
+              "text": "just. shut. up.",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 40
+            },
+            {
+              "text": "finish already...",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 40
+            },
+            {
+              "text": "drop dead?",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 40
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "noteId": 40,
+      "author": 1,
+      "content": "$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "Allie, what do you want?",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 50
+            },
+            {
+              "text": "Is this important, Allie?",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 51
+            },
+            {
+              "text": "you seem chatty today!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 51
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 50,
+      "author": 0,
+      "content": "this just in: i wanna talk to you!",
+      "triggersEndingCheck": false,
+      "nextNoteId": 60,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "hey beth!!!",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 10
+            },
+            {
+              "text": "you know,;#; i might like you with a huge nose...",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 51,
+      "author": 0,
+      "content": "It's VERY important! We need to talk tout suite!",
+      "triggersEndingCheck": false,
+      "nextNoteId": 60,
+      "": "",
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "hey beth!!!",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 10
+            },
+            {
+              "text": "you know,;#; i might like you with a huge nose...",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 60,
+      "author": 1,
+      "content": "$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "Let's talk after class.",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 70,
+      "author": 0,
+      "content": "$",
+      "triggersEndingCheck": false,
+      "nextNoteId": 80,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "We can't if you keep avoiding me!",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 80,
+      "author": 1,
+      "content": "Look, Allie,;#;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "I'm really trying to concentrate.",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 90
+            },
+            {
+              "text": "I actually wanted to talk too.",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 90,
+      "author": 0,
+      "content": "is your dad mad at me?;#;i tried to call you yesterday and he sounded like,;#;well, ;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "m-y dad",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 100
+            },
+            {
+              "text": "a little short tempered",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 100,
+      "author": 1,
+      "content": "Dunno.",
+      "triggersEndingCheck": false,
+      "nextNoteId": 110
+    },
+    {
+      "noteId": 110,
+      "author": 0,
+      "content": "maybe the ;$;#;were losing again?",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "": "",
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "bulls",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 120
+            },
+            {
+              "text": "red sox",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 120
+            },
+            {
+              "text": "cardinals",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 120
+            },
+            {
+              "text": "barcelona FC",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 120
+            },
+            {
+              "text": "russian figure-skating team",
+              "scoreEffect": 3,
+              "flavor": "",
+              "nextNoteId": 121
+            },
+            {
+              "text": "Local (And Well-Known) Baseball Team",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 120
+            },
+            {
+              "text": "new Italian Master Chef",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 120
+            },
+            {
+              "text": "hedge fund",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 120
+            }
+          ]
+        }
+      ]
+    },
+    
+    
+    
+    {
+      "noteId": 120,
+      "author": 1,
+      "content": "Dunno. I have no idea why;#;he'd be grumpy on the phone.",
+      "triggersEndingCheck": false,
+      "nextNoteId": 130
+    },
+    {
+      "noteId": 121,
+	  "scoreValue": 0,
+      "author": 1,
+      "content": "You know my dad.;#;But I have no idea why;#;he'd be grumpy on the phone.",
+      "triggersEndingCheck": false,
+      "nextNoteId": 130
+    },
+      {"noteId": 130,
+      "author": 0,
+      "content": "I mean, we used to be tight!;#;You know he signed my permission slip;#;to go to Utah last year?;#;My dad \"forgot\".;#;He also got us beers for the Star Wars premiere",
+      "triggersEndingCheck": false,
+      "nextNoteId": 140
+    },
+    {
+      "noteId": 140,
+      "author": 1,
+      "content": "Yeah, he seems cool,;#;but trust me, you don't want to talk to him right now.;#;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "Don't wake the sleeping dragon!",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 150
+            },
+            {
+              "text": "Thanks for caring, you're a good egg.",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 150,
+      "author": 0,
+      "content": "You just don't know how lucky you are.;#;I don't get to have a fairytale family;#;like yours. No ;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "": "",
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "\"Mommy Menstural Cup\" and \"Daddy Dirt Race\"",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 160
+            },
+            {
+              "text": "\"Mommy Marathon\" and \"Papa Pedicure\"",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 161
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 160,
+      "author": 1,
+      "content": "Sexist much? Anyway,;#;I know all the crap I get from them is better than;#;no crap at all.;#;I mean, I can only imagine...;#;Before I met you I didn't know;#;families could get ;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "that fucked up.",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 170
+            },
+            {
+              "text": "that tough.",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 170
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 161,
+      "author": 1,
+      "content": "Ha! Have you MET my parents? Anyway,;#;I know all the crap I get from them is better than;#;no crap at all.;#;I mean, I can only imagine...;#;Before I met you I didn't know;#;families could get ;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "that fucked up.",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 170
+            },
+            {
+              "text": "that tough.",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 170
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 170,
+      "author": 0,
+      "content": "See? That's why you should be;#;extra nice to Allie.;#;I'll be a great artist one day.;#;And ;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "paint a portrait of you;#;with my father's ashes",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 180
+            },
+            {
+              "text": "write you a blast-worthy punk anthem;#;we can rock to when we're old",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 180
+            },
+            {
+              "text": "create a sky high monument to love;#;using little handwritten notes",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 180,
+      "author": 1,
+      "content": "You go, Van Gogh.;#;I'll be sure to ;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "send you the warmest;#;congratulatory text on your birthday.",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 190
+            },
+            {
+              "text": "stick around;#;and help you shovel the piles of royalties;#;into little piles.",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 190
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 190,
+      "author": 0,
+      "content": "Yeah, to do that;#;you'll need to actually talk to me first!;#;You're acting like what happened;#;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "": "",
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "was some kind of disaster",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 200
+            },
+            {
+              "text": "was a mistake",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 200
+            },
+            {
+              "text": "wasn't your choice",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 201
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 200,
+      "author": 1,
+      "content": "It was! It was all you!",
+      "triggersEndingCheck": false,
+      "nextNoteId": 210
+    },
+    {
+      "noteId": 201,
+      "author": 1,
+      "content": "It wasn't! It was all you!",
+      "triggersEndingCheck": false,
+      "nextNoteId": 210
+    },
+	{
+      "noteId": 210,
+      "author": 0,
+      "content": "Oh so I'm the deviant!;#;$;#;And besides,;#;we even studied;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "It's not like I was trying to force you to do anything. It just happened.",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "You have a fun bone in you too, somewhere!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        },
+        {
+          "options": [
+            {
+              "text": " a little, ya know?",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 220
+            },
+            {
+              "text": ", it was productive after all!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 220
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 220,
+      "author": 1,
+      "content": "You could, very optimistically,;#;say we did a tiny bit of studying.;#;But ;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "your new paper texting habit is gonna get us in trouble. ",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 230
+            },
+            {
+              "text": "now it seems like you ACTIVELY try not to listen.",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 231
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 230,
+      "author": 0,
+      "content": "I eat trouble for lunch.;#;Which is lucky because I'm starving!;#;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "": "",
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "Besides, I figured my best friend will come save me from myself, ya know?",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 240
+            },
+            {
+              "text": "I just wanted us to meet again to study.Is that really such a crime?",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 241
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 231,
+      "author": 0,
+      "content": "Listen or listen not. There is no try.;#;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "": "",
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "Besides, I figured my best friend will come save me from myself, ya know?",
+              "scoreEffect": 2,
+              "flavor": "",
+              "nextNoteId": 240
+            },
+            {
+              "text": "I just wanted us to meet again to study.Is that really such a crime?",
+              "scoreEffect": 4,
+              "flavor": "",
+              "nextNoteId": 241
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 240,
+      "author": 1,
+      "content": "Way uncool.;#;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "Do you really think I'm so dumb?",
+              "scoreEffect": -2,
+              "flavor": "",
+              "nextNoteId": 250
+            },
+            {
+              "text": "We met to study Math, not anatomy!",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 251
+            },
+            {
+              "text": "Stop acting so desperate.",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 3250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 241,
+      "author": 1,
+      "content": "Right. \"Study\".;#;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "Do you really think I'm so dumb?",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 250
+            },
+            {
+              "text": "We met to study Math, not anatomy!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 251
+            },
+            {
+              "text": "Stop acting so desperate.",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 3250
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "noteId": 250,
+      "author": 0,
+      "content": "Dumb you sure ain't! Besides,;#;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "you literally begged me to come study with you!",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 260
+            },
+            {
+              "text": "you got so excited from the idea you'll help me study, your face almost exploded! ",
+              "scoreEffect": 2,
+              "flavor": "",
+              "nextNoteId": 261
+            },
+            {
+              "text": "what was it you always said? A lesson is only as good...",
+              "scoreEffect": 4,
+              "flavor": "",
+              "nextNoteId": 262
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 251,
+      "author": 0,
+      "content": "But anatomy was so goooooooood...;#;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "you literally begged me to come study with you!",
+              "scoreEffect": -2,
+              "flavor": "",
+              "nextNoteId": 260
+            },
+            {
+              "text": "you got so excited from the idea you'll help me study, your face almost exploded! ",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 261
+            },
+            {
+              "text": "what was it you always said? A lesson is only as good...",
+              "scoreEffect": 2,
+              "flavor": "",
+              "nextNoteId": 262
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 260,
+      "author": 1,
+      "content": "Now you're just being nasty.;#;Your cheap shots don't work on me.;#;I know all your tricks :)",
+      "triggersEndingCheck": false,
+      "nextNoteId": 270
+    },
+    {
+      "noteId": 261,
+      "author": 1,
+      "content": "The only thing that exploded;#;was your mind when I blew it with SCIENCE!;#;Your cheap shots don't work on me.;#;I know all your tricks :)",
+      "triggersEndingCheck": false,
+      "nextNoteId": 270
+    },
+    {
+      "noteId": 262,
+      "author": 1,
+      "content": "...as your abilitiy to follow it up.;#;Your cheap shots don't work on me.;#;I know all your tricks :)",
+      "triggersEndingCheck": false,
+      "nextNoteId": 270
+    },
+    {
+      "noteId": 270,
+      "author": 0,
+      "content": "Just because we played all those;#;video games doesn't mean you know ALL I got!",
+      "triggersEndingCheck": false,
+      "nextNoteId": 280,
+      "": "",
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "Besides, I figured my best friend will come save me from myself, ya know?",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": 240
+            },
+            {
+              "text": "I just wanted us to meet again to study.Is that really such a crime?",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 241
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 280,
+      "author": 0,
+      "content": "Man, do I miss that ;$;#;May it rest in peace. ",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "": "",
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "Nintendo.",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 290
+            },
+            {
+              "text": "Good old computer.",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 291
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 290,
+	  "scoreValue": 1,
+      "author": 1,
+      "content": "You always had the best Mario moves,;#;like, amazing timing.;#;I just liked watching you, I think.;#;I guess I'm more of a Yoshi;#;than the hero that gets the princess",
+      "triggersEndingCheck": false,
+      "nextNoteId": 300
+    },
+    {
+      "noteId": 291,
+	  "scoreValue": 1,
+      "author": 1,
+      "content": "You always were amazing in Prince of Persia.;#;I mostly liked watching you, I think.;#;I guess I'm more of a Shadow Prince than the hero;#;that gets the princess",
+      "triggersEndingCheck": false,
+      "nextNoteId": 300
+    },
+    {
+      "noteId": 300,
+	  "scoreValue": 1,
+      "author": 1,
+      "content": "You make it sound like you never;#;kicked my ass in Street Fighter.;#;You sure knew how to pull off your Hadoukens!",
+      "triggersEndingCheck": false,
+      "nextNoteId": 310
+    },
+	{
+      "noteId": 310,
+	  "scoreValue": 0,
+      "author": 0,
+      "content": "Sure, I know how to kick ass.;#;On screen and off.;#;But do I still get my princess at the end?",
+      "triggersEndingCheck": false,
+      "nextNoteId": 320
+    },
+    {
+      "noteId": 320,
+	  "scoreValue": 1,
+      "author": 1,
+      "content": "Sure you do.;#;You just need to put the One Ring on her finger.;#;Bling-bling!",
+      "triggersEndingCheck": false,
+      "nextNoteId": 330
+    },
+    {
+      "noteId": 330,
+	  "scoreValue": 1,
+      "author": 0,
+      "content": "Aww. Who said I wanted to marry her;#;I just need someone I can beat;#;in Street Fighter again!",
+      "triggersEndingCheck": false,
+      "nextNoteId": 340
+    },
+    {
+      "noteId": 340,
+      "author": 1,
+      "content": "Is that a threat? ;$;#;You ;$;#;and ;$",
+      "triggersEndingCheck": false,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "Or a promise?",
+              "scoreEffect": 3,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "I couldn't tell...",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        },
+        {
+          "options": [
+            {
+              "text": "make a lot of noise,",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "really try to charm me",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        },
+        {
+          "options": [
+            {
+              "text": "it's getting you nowehre.",
+              "scoreEffect": -3,
+              "flavor": "",
+              "nextNoteId": 350
+            },
+            {
+              "text": "maybe you should try just a little harder...",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": 351
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 350,
+      "author": 0,
+      "content": "Don't be mean. Listen, bee,;#;$;#;I see you walking down the hallway,;#;hide in classes THE MOMENT you see me.;#;$",
+      "triggersEndingCheck": true,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "I'm being real! You can't keep on avoiding me!",
+              "scoreEffect": 2,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "I'm baring my heart over here. I really want us to talk",
+              "scoreEffect": 4,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        },
+        {
+          "options": [
+            {
+              "text": "When did you become such a coward?",
+              "scoreEffect": -2,
+              "flavor": "",
+              "nextNoteId": 5000
+            },
+            {
+              "text": "It's like I'm your enemy all of a sudden. What happened?",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 5000
+            },
+            {
+              "text": "It would be hilarious if it wasn't so frustrating",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": 5000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 350,
+      "author": 0,
+      "content": "Wasn't trying too hard last time!;#;Listen, bee,;#;$;#;I see you walking down the hallway,;#;hide in classes THE MOMENT you see me.;#;$",
+      "triggersEndingCheck": true,
+      "nextNoteId": -1,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "I'm being real! You can't keep on avoiding me!",
+              "scoreEffect": -2,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "I'm baring my heart over here. I really want us to talk",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        },
+        {
+          "options": [
+            {
+              "text": "When did you become such a coward?",
+              "scoreEffect": -6,
+              "flavor": "",
+              "nextNoteId": 5000
+            },
+            {
+              "text": "It's like I'm your enemy all of a sudden. What happened?",
+              "scoreEffect": -2,
+              "flavor": "",
+              "nextNoteId": 5000
+            },
+            {
+              "text": "It would be hilarious if it wasn't so frustrating",
+              "scoreEffect": -4,
+              "flavor": "",
+              "nextNoteId": 5000
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "noteId": 1360,
+      "author": 1,
+      "content": "What do you want me to say? :$; ;#;I'm so embarrassed... ;#;And seeing you every day in class;#;;$",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 1370,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "I'm terrified!",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "I feel so awkward!",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        },
+        {
+          "options": [
+            {
+              "text": "doesn't help!",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "makes it even worse!",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 1370,
+      "author": 0,
+      "content": "Come on, Bee, don't be ;$",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 1380,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "so dramatic.",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "Such a stuck-up bitch.",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 1380,
+      "author": 1,
+      "content": "Well, you're one to talk!;#;;$",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 1390,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "What's your FUCKING problem?",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "You're turning everything into a;#;fucking BOLLYWOOD movie!",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 1390,
+      "author": 0,
+      "content": "Oh, we're throwing F bombs now?;#;;$",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 1400,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "That's not like you, Bee.",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "You've wounded me. With paper and pen. During Lit. class. Is it possible to die of irony?",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 1400,
+      "author": 1,
+      "content": "Screw this. My parents are going to ;$;;#;me. me, and all you can think about is;#;your own ;$; ass!",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 1410,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "kill",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "disown",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "evict",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        },
+        {
+          "options": [
+            {
+              "text": "dumb",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "stupid",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "stupid",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "(admittedly cute)",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "deviant",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 1410,
+      "author": 0,
+      "content": "Well I remember you ;$;",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 1420,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "trying to suck my face off. How improper! What would mommy say?",
+              "scoreEffect": -1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "begging for dat ass! Father dearest would blush!",
+              "scoreEffect": -4,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 1420,
+	  "scoreValue": -1,
+      "author": 1,
+      "content": "As if!",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 1430,
+      "madlibs": []
+    },
+    {
+      "noteId": 1430,
+	  "scoreValue": -1,
+      "author": 0,
+      "content": "You know what? ;#;NEVER! ;#;TALK! ;#;TO ME! ;#;AGAIN!",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 1440,
+      "madlibs": []
+    },
+    {
+      "noteId": 1440,
+	  "scoreValue": -1,
+      "author": 1,
+      "content": "Fine!",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 1450,
+      "madlibs": []
+    },
+    {
+      "noteId": 1450,
+	  "scoreValue": -1,
+      "author": 0,
+      "content": "Good!",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 1460,
+      "madlibs": []
+    },
+    {
+      "noteId": 1460,
+	  "scoreValue": -1,
+      "author": 0,
+      "content": "And FUCK YOU, you meddling ASSHOLE,;#;for messing with our notes!",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 9999,
+      "madlibs": []
+    },
+    {
+      "noteId": 2360,
+      "author": 1,
+      "content": "What do you want me to say? ;#;;$;;#;I'm so embarrassed... ;#;And seeing you ;$ ",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2370,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "I'm terrified!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "I feel so awkward!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        },
+        {
+          "options": [
+            {
+              "text": "doesn't help!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "is confusing!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 2370,
+      "author": 0,
+      "content": "So talk to me, ;$;;#;I know ;$",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2380,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "dummy,",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "silly,",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "doofus,",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "asshole,",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        },
+        {
+          "options": [
+            {
+              "text": "what you're going through.",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "how to deal with this.",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 2380,
+      "author": 1,
+      "content": "Oh, it's just a stroll in the park for you! ;#;As if I don't have ;$; to deal with!;#;I can't just go around telling everyone what happened!",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2390,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "parents",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "friends",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 2390,
+      "author": 0,
+      "content": "So that's it?;#;You're ;$; your feelings?",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2400,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "ashamed of",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "afraid of",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "running away from",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 2400,
+      "author": 1,
+      "content": "You're ;$; to call these things \"feelings\", Ali-G. ;#;Can't we just leave it at what it was? ;#;Just one wonderful moment, no more? ",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2410,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "quick",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "brave",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "insane",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 2410,
+      "author": 0,
+      "content": "So what do you call them? I have ;#;              F E E L I N G S;#; for you Bee, and I'm ;$; to say it, ;#;to ;$",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2420,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "not ashamed",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "not afraid",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "effing proud",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        },
+        {
+          "options": [
+            {
+              "text": "Spray paint it on the walls!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "shout it out loud from the rooftops!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "scratch it on the door of every bathroom stall in the school! BOYS' ROOM INCLUDED!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 2420,
+      "author": 1,
+      "content": "NO PLEASE DON'T! My parents will ;$",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2430,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "kill me.",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "disown me.",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "not understand.",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 2430,
+      "author": 0,
+      "content": "Screw them! We'll ;$ ",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2440,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "steal a car and go on a murder spree!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "run away to Mexico, and grow old together in cute sombreros.",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "commit ritual suicide off YOUR FAVORITE BRIDGE!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 2440,
+      "author": 0,
+      "content": "We could, you know, maybe just hang out again? ;#;Because I really ;$",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2440,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "like your butt.",
+              "scoreEffect": 0,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "want to see my best friend.",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "need some homework help, I guess?",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "can't get the last time out of my mind.",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 2440,
+	  "scoreValue": 0,
+      "author": 1,
+      "content": "I don't know Allie...",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2450,
+      "madlibs": []
+    },
+    {
+      "noteId": 2450,
+	  "scoreValue": 1,
+      "author": 0,
+      "content": "I promise not tell your parents! ;$; ;#;And if they freak, I'll be there with you to put out the fire.",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2460,
+      "madlibs": [
+        {
+          "options": [
+            {
+              "text": "Not a word!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "Scout's honor!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            },
+            {
+              "text": "Cthulhu be my witness!",
+              "scoreEffect": 1,
+              "flavor": "",
+              "nextNoteId": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "noteId": 2460,
+	  "scoreValue": 1,
+      "author": 1,
+      "content": "OK. OKAY! ;#;So we'll meet at your place. ;#;Today. ;#;To study. ;#;Sheesh, I never realized sweeping a girl off her feet ;#;involved beating her over the head with the broomstick, first.",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2470,
+      "madlibs": []
+    },
+    {
+      "noteId": 2470,
+	  "scoreValue": 1,
+      "author": 0,
+      "content": "<3 <3 <3 I'd love to study. Among other things...",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 2480,
+      "madlibs": []
+    },
+    {
+      "noteId": 2480,
+	  "scoreValue": 1,
+      "author": 0,
+      "content": "Oh, and thank YOU, our Cyrano-in-the-middle ;)",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 9999,
+      "madlibs": []
+    },
+    {
+      "noteId": 3250,
+	  "scoreValue": -1,
+      "author": 0,
+      "content": "OK. Bee, you know what, just... stop. ;#;You are all the things that are wrong with this. ;#;It's not the school or the teachers or any of the shitty things that you ;#;think might happen to you if you fail an exam, or if your parents find out about us. ;#;The problem is you! ;#;Alright? ;#;It's you. ...Fuck, Bee. ;#;Call me someday when you grow a pair.",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 9999,
+      "madlibs": []
+    },
+    {
+      "noteId": 9999,
+	  "scoreValue": 1,
+      "author": 0,
+      "content": "Thank you for playing Cyranote!;#;Cyranote was created in two days, for ;#;        Global Game Jam 2018;#;in Tel Aviv, Israel!;#;Thanks to GameIS and Ironsource for hosting the jam.;#;;#;TEAM Boris and the Bergeracs",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 10000,
+      "madlibs": []
+    },
+    {
+      "noteId": 10000,
+	  "scoreValue": 1,
+      "author": 1,
+      "content": "Ariel Yahav: Words, sounds, lists and sleep deprived humour.;#;Boris Ulyanskiy: Story, Writing;#;Carmin Bittermann: Sound Recording and Editing;#;Lynne Hurwitz: Game Design and Development, Vocals;#;Nadav Sheffer - Designer, Writer, Etc;#;Nataly Bendersky Shalem - Game Designer and Developer;#;Yosi Rozengarten - Game Designer & Developer;#;Ofir Hanin - Art Art Art",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": true,
+      "nextNoteId": 9999,
+      "madlibs": []
+    }
+  ],
+  "endings": [
+    {
+      "noteId": -1,
+      "author": 0,
+      "content": "Bye!",
+      "triggersEndingCheck": false,
+      "skipCutToCharacter": false,
+      "madlibs": []
+    }
+  ]
+}

@@ -1267,7 +1267,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1830300244479710
 GameObject:
   m_ObjectHideFlags: 1
@@ -3135,7 +3135,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 764fb599a45bb3048adedf08fef80e35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4550,6 +4550,7 @@ MonoBehaviour:
   rb: {fileID: 54715218257467966}
   speed: 200
   LvCreator: {fileID: 114154269955997296}
+  cam: {fileID: 1856137847271654}
 --- !u!114 &114333963670010218
 MonoBehaviour:
   m_ObjectHideFlags: 1
