@@ -73,6 +73,13 @@ MonoBehaviour:
     type: 2}
   textWidth: 365
   textHight: 100
+  data:
+    noteId: 0
+    author: 0
+    content: 
+    triggersEndingCheck: 0
+    nextNoteId: 0
+    madlibs: []
 --- !u!222 &222006811239459598
 CanvasRenderer:
   m_ObjectHideFlags: 1

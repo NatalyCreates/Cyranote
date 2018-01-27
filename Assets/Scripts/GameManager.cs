@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
     
     private StoryData story;
-    private NoteData currentNoteData;
+    public NoteData currentNoteData;
     private int gameScore;
     private int nextNoteId;
     public static GameManager Instance;
@@ -48,13 +48,6 @@ public class GameManager : MonoBehaviour {
 
             Animator anim = ClassObj.GetComponent<Animator>();
 
-            if (anim.GetBool("right") || anim.GetBool("left"))
-            {
-                Destroy(CurrNote);
-                rightBtn.active = false;
-                leftBtn.active = false;
-            }
-
             anim.SetBool("right", false);
             anim.SetBool("left", false);
         }
@@ -66,7 +59,7 @@ public class GameManager : MonoBehaviour {
 
     void SetButtons(Enums.Character character)
     {
-        if (character == Enums.Character.Right)
+        if (character == Enums.Character.Beth)
         {
             rightBtn.active = true;
             leftBtn.active = false;
@@ -84,15 +77,22 @@ public class GameManager : MonoBehaviour {
         int noteScore = CalculateTotal(selectedList);
         gameScore += noteScore;
 
-        if (isRight)
+        Destroy(CurrNote);
+        rightBtn.active = false;
+        leftBtn.active = false;
+
+        if (!currentNoteData.skipCutToCharacter)
         {
-            rightCharacter.SetMood(noteScore);
-            ClassObj.GetComponent<Animator>().SetBool("right", true);
-        }
-        else
-        {
-            leftCharacter.SetMood(noteScore);
-            ClassObj.GetComponent<Animator>().SetBool("left", true);
+            if (isRight)
+            {
+                rightCharacter.SetMood(noteScore);
+                ClassObj.GetComponent<Animator>().SetBool("right", true);
+            }
+            else
+            {
+                leftCharacter.SetMood(noteScore);
+                ClassObj.GetComponent<Animator>().SetBool("left", true);
+            }
         }
 
         nextNoteId = GetNextNoteId(selectedList);

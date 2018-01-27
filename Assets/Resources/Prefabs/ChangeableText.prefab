@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 222226338870774322}
   - component: {fileID: 114598455377654944}
   - component: {fileID: 114757920637954908}
+  - component: {fileID: 114324291415205950}
   m_Layer: 5
   m_Name: ChangeableText
   m_TagString: Untagged
@@ -117,6 +118,19 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114324291415205950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1397965680691330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ef673c36c9afb47b39b28f3b159e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AllieFont: {fileID: 12800000, guid: 2842f2e93ec9a324f8d5a604771b853a, type: 3}
+  BethFont: {fileID: 12800000, guid: 42043575ca264cf409fa2a304837ff74, type: 3}
 --- !u!114 &114598455377654944
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -166,12 +180,20 @@ MonoBehaviour:
   - text: 
     scoreEffect: 0
     flavor: 0
+    nextNoteId: 0
   - text: 
     scoreEffect: 0
     flavor: 0
+    nextNoteId: 0
   - text: 
     scoreEffect: 0
     flavor: 0
+    nextNoteId: 0
+  selected:
+    text: 
+    scoreEffect: 0
+    flavor: 0
+    nextNoteId: 0
 --- !u!114 &114894091746180506
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -2,11 +2,12 @@
 	"notes":
 	[
 		{
-		  "noteId": 14,
+		  "noteId": 140,
 		  "author": 0,
 		  "content": "Is your dad mad at me?;#;I tried to call you yesterday and he sounded like,;#;well, ;$",
 		  "triggersEndingCheck": false,
-		  "nextNoteId": 15,
+		  "skipCutToCharacter": false,
+		  "nextNoteId": 150,
 		  "madlibs":
 		  [
 			{
@@ -16,32 +17,34 @@
 				  "text": "MY dad.",
 				  "scoreEffect": -1,
 				  "flavor": "",
-				  "nextNoteId": 15
+				  "nextNoteId": 150
 				},
 				{
 				  "text": "a little short tempered.",
 				  "scoreEffect": 0,
 				  "flavor": "",
-				  "nextNoteId": 15
+				  "nextNoteId": 150
 				}
 			  ]
 			}
 		  ]
 		},
 		{
-			"noteId": 15,
+			"noteId": 150,
             "author": 1,
             "content": "Dunno.",
 			"triggersEndingCheck": false,
-			"nextNoteId": 16,
+			"skipCutToCharacter": false,
+			"nextNoteId": 160,
 			"madlibs": []
 		},
 		{
-			"noteId": 16,
+			"noteId": 160,
             "author": 0,
             "content": "Maybe the ;$;#;didn't do their best today",
 			"triggersEndingCheck": false,
-			"nextNoteId": 17,
+			"skipCutToCharacter": false,
+			"nextNoteId": 170,
 			"madlibs":
 			[
 				{
@@ -51,75 +54,78 @@
 					  "text": "Bulls",
 					  "scoreEffect": 0,
 					  "flavor": "",
-					  "nextNoteId": 17
+					  "nextNoteId": 170
 					},
 					{
 					  "text": "Red Sox",
 					  "scoreEffect": 0,
 					  "flavor": "",
-					  "nextNoteId": 17
+					  "nextNoteId": 170
 					},
 					{
 					  "text": "Cardinals",
 					  "scoreEffect": 0,
 					  "flavor": "",
-					  "nextNoteId": 17
+					  "nextNoteId": 170
 					},
 					{
 					  "text": "Barcelona FC",
 					  "scoreEffect": 0,
 					  "flavor": "",
-					  "nextNoteId": 17
+					  "nextNoteId": 170
 					},
 					{
 					  "text": "Russian figure-skating team",
 					  "scoreEffect": 3,
 					  "flavor": "",
-					  "nextNoteId": 18
+					  "nextNoteId": 180
 					},
 					{
 					  "text": "Local (And Well-Known) Baseball Team",
 					  "scoreEffect": 0,
 					  "flavor": "",
-					  "nextNoteId": 17
+					  "nextNoteId": 170
 					},
 					{
 					  "text": "new Italian Master Chef",
 					  "scoreEffect": 0,
 					  "flavor": "",
-					  "nextNoteId": 17
+					  "nextNoteId": 170
 					},
 					{
 					  "text": "hedge fund",
 					  "scoreEffect": 0,
 					  "flavor": "",
-					  "nextNoteId": 17
+					  "nextNoteId": 170
 					}
 				  ]
 				}
 			]
 		},
 		{
-			"noteId": 17,
+			"noteId": 170,
             "author": 1,
             "content": "Dunno.;#;But I have no idea what's buzzing in his bonnet.",
 			"triggersEndingCheck": false,
-			"nextNoteId": 19,
+			"skipCutToCharacter": false,
+			"nextNoteId": 190,
 			"madlibs": []
 		},
 		{
-			"noteId": 18,
+			"noteId": 180,
             "author": 1,
             "content": "You know my dad.;#;But I have no idea what's buzzing in his bonnet.",
 			"triggersEndingCheck": false,
-			"nextNoteId": 19,
+			"skipCutToCharacter": false,
+			"nextNoteId": 190,
 			"madlibs": []
 		},
 		{
-			"noteId": 19,
+			"noteId": 190,
             "author": 0,
             "content": "I mean, we used to be tight!;#;You know he signed my permission slip to go to Utah last year?;#;My dad \"forgot\".;#;He also bought beers for us for the Star Wars premiere.",
 			"triggersEndingCheck": false,
+			"skipCutToCharacter": false,
 			"nextNoteId": 1000,
 			"madlibs": []
 		}
@@ -131,6 +137,7 @@
             "author": 0,
             "content": "Bye!",
 			"triggersEndingCheck": false,
+			"skipCutToCharacter": false,
 			"madlibs": []
 		}
 	]
