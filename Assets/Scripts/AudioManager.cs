@@ -14,21 +14,15 @@ public class AudioManager : MonoBehaviour {
     [SerializeField] AudioClip[] normalReactionASounds;
     [SerializeField] AudioClip[] normalReactionBSounds;
     [SerializeField] AudioClip[] PaperSounds;
-    [SerializeField] AudioClip[] PencilSounds;
 
     public void Awake() {
         if (Instance == null) Instance = this;
-        else throw new System.Exception("AudioManager class is Singleton, but has more than 1 instance!");
+        else Destroy(gameObject);
+
+        // Keep alive
+        DontDestroyOnLoad(gameObject);
     }
-
-    public void Start() {
-
-    }
-
-    void Update() {
-        
-    }
-
+    
 	public void PlaySound(Enums.SoundType soundType)
 	{
         int randClip = 0;
@@ -61,10 +55,6 @@ public class AudioManager : MonoBehaviour {
             case Enums.SoundType.Paper:
                 randClip = Random.Range(0, PaperSounds.Length);
                 soundSource.clip = PaperSounds[randClip];
-                break;
-            case Enums.SoundType.Pencil:
-                randClip = Random.Range(0, PencilSounds.Length);
-                soundSource.clip = PencilSounds[randClip];
                 break;
         }
         soundSource.Play();

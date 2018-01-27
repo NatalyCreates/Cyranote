@@ -9,8 +9,8 @@ public class GameManager : MonoBehaviour {
     public static GameManager Instance;
 
     private int FIRST_NOTE_ID = 0;
-    private int END_NOTE_ID = -500;
-    private int CREDITS_NOTE = 9999;
+    private int GAME_OVER_NOTE_ID = -500;
+    private int END_STORY_NOTE_ID = 5000;
 
     private StoryData story;
     public NoteData currentNoteData;
@@ -120,7 +120,7 @@ public class GameManager : MonoBehaviour {
     void UpdateSendingButtons()
     {
         // Game end - no buttons to send
-        if (nextNoteId == END_NOTE_ID)
+        if (nextNoteId == GAME_OVER_NOTE_ID)
         {
             sendToAllieButton.SetActive(false);
             sendToBethButton.SetActive(false);

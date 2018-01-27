@@ -134,7 +134,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 675961044f6834952ad1ca14612ee978, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.35
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -190,7 +190,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -327,10 +327,3 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9b080def91c6c457da7849e8c588dec3, type: 3}
   - {fileID: 8300000, guid: c1e9f27705f414434948bbdbde131ec2, type: 3}
   - {fileID: 8300000, guid: 5f4d54f1b2c9549beae305124656b3c1, type: 3}
-  PencilSounds:
-  - {fileID: 8300000, guid: a6192d2fabc3e4adcb955a0b42e5170b, type: 3}
-  - {fileID: 8300000, guid: ae1922afa926d4df785df586c052a399, type: 3}
-  - {fileID: 8300000, guid: e40c886a3776f47a599f99b29a5f3117, type: 3}
-  - {fileID: 8300000, guid: baf6cca687b1142a296fa44e0528776a, type: 3}
-  - {fileID: 8300000, guid: b9bf1728c0fcd42518090f976cb53fde, type: 3}
-  - {fileID: 8300000, guid: f0c88ef8fbc194e55a26fd3da4d80b1e, type: 3}
