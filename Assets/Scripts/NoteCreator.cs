@@ -8,7 +8,7 @@ public class NoteCreator : MonoBehaviour
     [SerializeField] GameObject normalTextPre;
     [SerializeField] GameObject changeableTextPre;
 
-    Vector2 writingPos = new Vector2(-1511, 191);
+    Vector2 writingPos = new Vector2(-1400, 250);
     [SerializeField]float textWidth;
     [SerializeField]float textHight;
 
