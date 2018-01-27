@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager Instance;
 
-    private int FIRST_NOTE_ID = 140;
+    private int FIRST_NOTE_ID = 0;
     private int END_NOTE_ID = 5000;
     private int CREDITS_NOTE = 9999;
 
@@ -135,11 +135,17 @@ public class GameManager : MonoBehaviour {
     public void SendNote()
     {
         List<OptionData> selectedOptions = currentNoteObj.GetComponent<NoteCreator>().GetSelected();
-        int noteScore = CalcScoreFromSelectedOptions(selectedOptions);
-        Debug.Log("Note Score was: " + noteScore);
-        noteScore = selectedOptions.Sum(opt => opt.scoreEffect);
-        Debug.Log("Note Score was: " + noteScore);
-        gameScore += noteScore;
+        int noteScore;
+
+        if (selectedOptions.Count == 0) noteScore = currentNoteData.scoreValue;
+        else
+        {
+            noteScore = CalcScoreFromSelectedOptions(selectedOptions);
+            Debug.Log("Note Score was: " + noteScore);
+            noteScore = selectedOptions.Sum(opt => opt.scoreEffect);
+            Debug.Log("Note Score was: " + noteScore);
+            gameScore += noteScore;
+        }
 
         Destroy(currentNoteObj);
 
