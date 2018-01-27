@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 114357457641260196}
   - component: {fileID: 82192278390261880}
   - component: {fileID: 82150584766933192}
+  - component: {fileID: 82389535470791028}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -131,7 +132,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 487f9337fdb01477c9c14b995ca5684c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 675961044f6834952ad1ca14612ee978, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.55
   m_Pitch: 1
@@ -202,6 +203,86 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!82 &82389535470791028
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1684330109017168}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 487f9337fdb01477c9c14b995ca5684c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!114 &114357457641260196
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -215,12 +296,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundMusicSource: {fileID: 82192278390261880}
   soundSource: {fileID: 82150584766933192}
-  badReactionSounds:
-  - {fileID: 8300000, guid: ebdc92486592f4682b69accbb0eca333, type: 3}
-  goodReactionSounds:
-  - {fileID: 8300000, guid: 378ac5388946a42e6bd61e03ed1ffe1a, type: 3}
-  normalReactionSounds:
-  - {fileID: 8300000, guid: 260a23e7ae587460194323da4735ab7e, type: 3}
+  goodReactionASounds:
+  - {fileID: 8300000, guid: 06be13ee9bef04684974d9debd254a97, type: 3}
+  goodReactionBSounds:
+  - {fileID: 8300000, guid: e7a0df1dd4ddf498e8e20646de655c84, type: 3}
+  - {fileID: 8300000, guid: 040c5bb4944d348fe935727fd01a4ceb, type: 3}
+  - {fileID: 8300000, guid: cae792c4a7a4a440a87143662db6673b, type: 3}
+  badReactionASounds:
+  - {fileID: 8300000, guid: 8e5cdfe01a7cf495683c0f24c954a79b, type: 3}
+  - {fileID: 8300000, guid: 073d38659f1ad432eb7fa046baa57706, type: 3}
+  - {fileID: 8300000, guid: 6114b28a726c2449da21c154fe5ee7d1, type: 3}
+  - {fileID: 8300000, guid: 895f58ae72e624979a75cbae8e6c1144, type: 3}
+  badReactionBSounds:
+  - {fileID: 8300000, guid: 55a9cfca0cd694ca790f73db7fd983ec, type: 3}
+  - {fileID: 8300000, guid: b7ce0d1b67f5a4d84a666bafdc4346d5, type: 3}
+  - {fileID: 8300000, guid: 24840e72bacca4127a90527fcd9034d5, type: 3}
+  normalReactionASounds:
+  - {fileID: 8300000, guid: 18699d3c92e9b45d5bcf77358eb3dfe2, type: 3}
+  - {fileID: 8300000, guid: 612e4c70b973d4d26a39683034488232, type: 3}
+  - {fileID: 8300000, guid: a7ac8ecb744be4b0286f6c273b9228e7, type: 3}
+  - {fileID: 8300000, guid: 2062a1e1fdc7a4d3b87e51fc59a07b48, type: 3}
+  normalReactionBSounds:
+  - {fileID: 8300000, guid: 61e1f80bfc2d74cc9811c4d98cb381b7, type: 3}
+  - {fileID: 8300000, guid: 097756be6c5c74a7cb6464f71b035203, type: 3}
+  - {fileID: 8300000, guid: e0d23a4856fb64613adc3a3875ba6d12, type: 3}
   PaperSounds:
   - {fileID: 8300000, guid: c7f3c663373624bd4b7b477609d0b124, type: 3}
   - {fileID: 8300000, guid: 2fa7943e5cc59470d994c8c0d9619ce2, type: 3}

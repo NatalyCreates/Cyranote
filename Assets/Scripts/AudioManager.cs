@@ -7,9 +7,12 @@ public class AudioManager : MonoBehaviour {
     public static AudioManager Instance;
 	public AudioSource backgroundMusicSource;  
     public AudioSource soundSource;  
-	[SerializeField] AudioClip[] badReactionSounds;
-    [SerializeField] AudioClip[] goodReactionSounds;
-    [SerializeField] AudioClip[] normalReactionSounds;
+	[SerializeField] AudioClip[] goodReactionASounds;
+    [SerializeField] AudioClip[] goodReactionBSounds;
+    [SerializeField] AudioClip[] badReactionASounds;
+    [SerializeField] AudioClip[] badReactionBSounds;
+    [SerializeField] AudioClip[] normalReactionASounds;
+    [SerializeField] AudioClip[] normalReactionBSounds;
     [SerializeField] AudioClip[] PaperSounds;
     [SerializeField] AudioClip[] PencilSounds;
 
@@ -31,17 +34,29 @@ public class AudioManager : MonoBehaviour {
         int randClip = 0;
         switch (soundType)
         {
-            case Enums.SoundType.Good:
-                randClip = Random.Range(0, goodReactionSounds.Length);
-                soundSource.clip = goodReactionSounds[randClip];
+            case Enums.SoundType.GoodA:
+                randClip = Random.Range(0, goodReactionASounds.Length);
+                soundSource.clip = goodReactionASounds[randClip];
                 break;
-            case Enums.SoundType.Bad:
-                randClip = Random.Range(0, badReactionSounds.Length);
-                soundSource.clip = badReactionSounds[randClip];
+            case Enums.SoundType.GoodB:
+                randClip = Random.Range(0, goodReactionBSounds.Length);
+                soundSource.clip = goodReactionBSounds[randClip];
                 break;
-            case Enums.SoundType.Normal:
-                randClip = Random.Range(0, normalReactionSounds.Length);
-                soundSource.clip = normalReactionSounds[randClip];
+            case Enums.SoundType.BadA:
+                randClip = Random.Range(0, badReactionASounds.Length);
+                soundSource.clip = badReactionASounds[randClip];
+                break;
+            case Enums.SoundType.BadB:
+                randClip = Random.Range(0, badReactionBSounds.Length);
+                soundSource.clip = badReactionBSounds[randClip];
+                break;
+            case Enums.SoundType.NormalA:
+                randClip = Random.Range(0, normalReactionASounds.Length);
+                soundSource.clip = normalReactionASounds[randClip];
+                break;
+            case Enums.SoundType.NormalB:
+                randClip = Random.Range(0, normalReactionBSounds.Length);
+                soundSource.clip = normalReactionBSounds[randClip];
                 break;
             case Enums.SoundType.Paper:
                 randClip = Random.Range(0, PaperSounds.Length);
