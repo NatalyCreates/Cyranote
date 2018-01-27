@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour {
 
 	[SerializeField] GameObject miniGameUi;
 	[SerializeField] GameObject miniGame;
+	[SerializeField] GameObject phoneUi;
 
     // Anim Arms
     public Animator arms;
@@ -103,6 +104,7 @@ public class GameManager : MonoBehaviour {
         {
             if (introShowing)
             {
+				phoneUi.SetActive (true);
                 introPanel.SetActive(false);
                 introShowing = false;
                 StartCoroutine(StartNoteAnim());

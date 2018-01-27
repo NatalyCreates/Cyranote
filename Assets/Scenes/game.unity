@@ -284,7 +284,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &454405798
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1434,6 +1434,7 @@ MonoBehaviour:
   bethAvatar: {fileID: 1995999840}
   miniGameUi: {fileID: 1693603815}
   miniGame: {fileID: 57595075}
+  phoneUi: {fileID: 454405797}
   arms: {fileID: 588259510}
 --- !u!1 &2061328452
 GameObject:
