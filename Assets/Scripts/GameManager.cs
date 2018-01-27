@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
     public static GameManager Instance;
 
     private int FIRST_NOTE_ID = 0;
-    private int END_NOTE_ID = 5000;
+    private int END_NOTE_ID = -500;
     private int CREDITS_NOTE = 9999;
 
     private StoryData story;
@@ -100,7 +101,7 @@ public class GameManager : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && Time.timeSinceLevelLoad > 3f)
         {
             if (introShowing)
             {
@@ -109,6 +110,10 @@ public class GameManager : MonoBehaviour {
                 introShowing = false;
                 StartCoroutine(StartNoteAnim());
             }
+        }
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("OpeningScreen");
         }
     }
 
@@ -120,6 +125,7 @@ public class GameManager : MonoBehaviour {
             sendToAllieButton.SetActive(false);
             sendToBethButton.SetActive(false);
             Debug.Log("GAME END");
+
         }
         else
         {

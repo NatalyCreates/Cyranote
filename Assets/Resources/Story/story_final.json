@@ -201,27 +201,17 @@
       "author": 1,
       "content": "Let's talk after class.",
       "triggersEndingCheck": false,
-      "nextNoteId": -1,
+      "nextNoteId": 70,
       "madlibs": []
     },
     {
       "noteId": 70,
+	  "scoreValue": -1,
       "author": 0,
-      "content": "$",
+      "content": "We can't if you keep avoiding me!",
       "triggersEndingCheck": false,
       "nextNoteId": 80,
-      "madlibs": [
-        {
-          "options": [
-            {
-              "text": "We can't if you keep avoiding me!",
-              "scoreEffect": -1,
-              "flavor": "",
-              "nextNoteId": 80
-            }
-          ]
-        }
-      ]
+      "madlibs": []
     },
     {
       "noteId": 80,
@@ -477,19 +467,19 @@
         {
           "options": [
             {
-              "text": "paint a portrait of you;#;with my father's ashes",
+              "text": "paint a portrait of you with my father's ashes",
               "scoreEffect": 0,
               "flavor": "",
               "nextNoteId": 180
             },
             {
-              "text": "write you a blast-worthy punk anthem;#;we can rock to when we're old",
+              "text": "write you a blast-worthy punk anthem we can rock to when we're old",
               "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": 180
             },
             {
-              "text": "create a sky high monument to love;#;using little handwritten notes",
+              "text": "create a sky high monument to love using little handwritten notes",
               "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": 180
@@ -508,13 +498,13 @@
         {
           "options": [
             {
-              "text": "send you the warmest;#;congratulatory text on your birthday.",
+              "text": "send you the warmest congratulatory text on your birthday.",
               "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": 190
             },
             {
-              "text": "stick around;#;and help you shovel the piles of royalties;#;into little piles.",
+              "text": "stick around and help you shovel the piles of royalties into little piles.",
               "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": 190
@@ -601,7 +591,7 @@
               "nextNoteId": 220
             },
             {
-              "text": ", it was productive after all!",
+              "text": " it was productive after all!",
               "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": 220
@@ -1765,7 +1755,7 @@
       "noteId": 3250,
 	  "scoreValue": -1,
       "author": 0,
-      "content": "OK. Bee, you know what, just... stop. ;#;You are all the things that are wrong with this. ;#;It's not the school or the teachers or any of the shitty things that you ;#;think might happen to you if you fail an exam, or if your parents find out about us. ;#;The problem is you! ;#;Alright? ;#;It's you. ...Fuck, Bee. ;#;Call me someday when you grow a pair.",
+      "content": "OK. Bee, you know what, just... stop. ;#;You are all the things that are wrong with this. ;#;It's not the school or the teachers or any of the shitty things that you ;#;think might happen to you if you fail an exam, or if your parents find out about us. ;#;The problem is you! Alright? ;#;It's you. ...Fuck, Bee. ;#;Call me someday when you grow a pair.",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 9999,
@@ -1774,7 +1764,7 @@
     {
       "noteId": 9999,
 	  "scoreValue": 1,
-      "author": 0,
+      "author": 1,
       "content": "Thank you for playing Cyranote!;#;Cyranote was created in two days, for ;#;        Global Game Jam 2018;#;in Tel Aviv, Israel!;#;Thanks to GameIS and Ironsource for hosting the jam.;#;;#;TEAM Boris and the Bergeracs",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
@@ -1784,22 +1774,13 @@
     {
       "noteId": 10000,
 	  "scoreValue": 1,
-      "author": 1,
+      "author": 0,
       "content": "Ariel Yahav: Words, sounds, lists and sleep deprived humour.;#;Boris Ulyanskiy: Story, Writing;#;Carmin Bittermann: Sound Recording and Editing;#;Lynne Hurwitz: Game Design and Development, Vocals;#;Nadav Sheffer - Designer, Writer, Etc;#;Nataly Bendersky Shalem - Game Designer and Developer;#;Yosi Rozengarten - Game Designer & Developer;#;Ofir Hanin - Art Art Art",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
-      "nextNoteId": 9999,
+      "nextNoteId": -500,
       "madlibs": []
     }
   ],
-  "endings": [
-    {
-      "noteId": -1,
-      "author": 0,
-      "content": "Bye!",
-      "triggersEndingCheck": false,
-      "skipCutToCharacter": false,
-      "madlibs": []
-    }
-  ]
+  "endings": []
 }
