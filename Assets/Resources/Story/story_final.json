@@ -3,6 +3,7 @@
     
     {
       "noteId": 0,
+	  "scoreValue": 0,
       "author": 0,
       "content": "hey beth",
       "triggersEndingCheck": false,
@@ -11,7 +12,7 @@
     {
       "noteId": 10,
       "author": 0,
-      "content": "$",
+      "content": "      ;$",
       "triggersEndingCheck": false,
       "nextNoteId": -1,
       "madlibs": [
@@ -19,7 +20,7 @@
           "options": [
             {
               "text": "hey beth!!!",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": 10
             },
@@ -67,7 +68,7 @@
     {
       "noteId": 30,
       "author": 0,
-      "content": "god, ;$;#;how much french merde can a girl take?;#; when will ms. johnson ;$;#;I mean, it's not as if any of this;#;will help us become the charming housewives;#;of saudi millionaires, right?",
+      "content": "god, ;$;#;how much French merde can a girl take?;#; when will ms. Johnson ;$;#;I mean, it's not as if any of this;#;will help us become the charming housewives;#;of saudi millionaires, right?",
       "triggersEndingCheck": false,
       "nextNoteId": -1,
       "madlibs": [
@@ -363,6 +364,7 @@
     },
     {
       "noteId": 121,
+	  "scoreValue": 0,
       "author": 1,
       "content": "You know my dad.;#;But I have no idea why;#;he'd be grumpy on the phone.",
       "triggersEndingCheck": false,
@@ -894,6 +896,7 @@
     },
     {
       "noteId": 290,
+	  "scoreValue": 1,
       "author": 1,
       "content": "You always had the best Mario moves,;#;like, amazing timing.;#;I just liked watching you, I think.;#;I guess I'm more of a Yoshi;#;than the hero that gets the princess",
       "triggersEndingCheck": false,
@@ -901,6 +904,7 @@
     },
     {
       "noteId": 291,
+	  "scoreValue": 1,
       "author": 1,
       "content": "You always were amazing in Prince of Persia.;#;I mostly liked watching you, I think.;#;I guess I'm more of a Shadow Prince than the hero;#;that gets the princess",
       "triggersEndingCheck": false,
@@ -908,6 +912,7 @@
     },
     {
       "noteId": 300,
+	  "scoreValue": 1,
       "author": 1,
       "content": "You make it sound like you never;#;kicked my ass in Street Fighter.;#;You sure knew how to pull off your Hadoukens!",
       "triggersEndingCheck": false,
@@ -915,6 +920,7 @@
     },
 	{
       "noteId": 310,
+	  "scoreValue": 0,
       "author": 0,
       "content": "Sure, I know how to kick ass.;#;On screen and off.;#;But do I still get my princess at the end?",
       "triggersEndingCheck": false,
@@ -922,6 +928,7 @@
     },
     {
       "noteId": 320,
+	  "scoreValue": 1,
       "author": 1,
       "content": "Sure you do.;#;You just need to put the One Ring on her finger.;#;Bling-bling!",
       "triggersEndingCheck": false,
@@ -929,6 +936,7 @@
     },
     {
       "noteId": 330,
+	  "scoreValue": 1,
       "author": 0,
       "content": "Aww. Who said I wanted to marry her;#;I just need someone I can beat;#;in Street Fighter again!",
       "triggersEndingCheck": false,
@@ -1089,7 +1097,7 @@
     {
       "noteId": 1360,
       "author": 1,
-      "content": "What do you want me to say? :$; ;#;I'm so embarassed... ;#;And seeing you every day in class;#;;$",
+      "content": "What do you want me to say? :$; ;#;I'm so embarrassed... ;#;And seeing you every day in class;#;;$",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 1370,
@@ -1098,13 +1106,13 @@
           "options": [
             {
               "text": "I'm terrified!",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "I feel so awkward!",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1114,13 +1122,13 @@
           "options": [
             {
               "text": "doesn't help!",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "makes it even worse!",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1140,13 +1148,13 @@
           "options": [
             {
               "text": "so dramatic.",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "Such a stuck-up bitch.",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1166,7 +1174,7 @@
           "options": [
             {
               "text": "What's your FUCKING problem?",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
@@ -1192,7 +1200,7 @@
           "options": [
             {
               "text": "That's not like you, Bee.",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
@@ -1218,13 +1226,13 @@
           "options": [
             {
               "text": "kill",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "disown",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
@@ -1240,31 +1248,31 @@
           "options": [
             {
               "text": "dumb",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "stupid",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "stupid",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "(admittedly cute)",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "deviant",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1284,13 +1292,13 @@
           "options": [
             {
               "text": "trying to suck my face off. How improper! What would mommy say?",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "begging for dat ass! Father dearest would blush!",
-              "scoreEffect": 0,
+              "scoreEffect": -4,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1300,6 +1308,7 @@
     },
     {
       "noteId": 1420,
+	  "scoreValue": -1,
       "author": 1,
       "content": "As if!",
       "triggersEndingCheck": false,
@@ -1309,6 +1318,7 @@
     },
     {
       "noteId": 1430,
+	  "scoreValue": -1,
       "author": 0,
       "content": "You know what? ;#;NEVER! ;#;TALK! ;#;TO ME! ;#;AGAIN!",
       "triggersEndingCheck": false,
@@ -1318,6 +1328,7 @@
     },
     {
       "noteId": 1440,
+	  "scoreValue": -1,
       "author": 1,
       "content": "Fine!",
       "triggersEndingCheck": false,
@@ -1327,6 +1338,7 @@
     },
     {
       "noteId": 1450,
+	  "scoreValue": -1,
       "author": 0,
       "content": "Good!",
       "triggersEndingCheck": false,
@@ -1336,6 +1348,7 @@
     },
     {
       "noteId": 1460,
+	  "scoreValue": -1,
       "author": 0,
       "content": "And FUCK YOU, you meddling ASSHOLE,;#;for messing with our notes!",
       "triggersEndingCheck": false,
@@ -1346,7 +1359,7 @@
     {
       "noteId": 2360,
       "author": 1,
-      "content": "What do you want me to say? ;#;;$;;#;I'm so embarassed... ;#;And seeing you ;$ ",
+      "content": "What do you want me to say? ;#;;$;;#;I'm so embarrassed... ;#;And seeing you ;$ ",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 2370,
@@ -1355,13 +1368,13 @@
           "options": [
             {
               "text": "I'm terrified!",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "I feel so awkward!",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1371,13 +1384,13 @@
           "options": [
             {
               "text": "doesn't help!",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "is confusing!",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1397,19 +1410,19 @@
           "options": [
             {
               "text": "dummy,",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "silly,",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "doofus,",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
@@ -1425,13 +1438,13 @@
           "options": [
             {
               "text": "what you're going through.",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "how to deal with this.",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1451,13 +1464,13 @@
           "options": [
             {
               "text": "parents",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "friends",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1509,13 +1522,13 @@
           "options": [
             {
               "text": "quick",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "brave",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
@@ -1541,19 +1554,19 @@
           "options": [
             {
               "text": "not ashamed",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "not afraid",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "effing proud",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1563,19 +1576,19 @@
           "options": [
             {
               "text": "Spray paint it on the walls!",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "shout it out loud from the rooftops!",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "scratch it on the door of every bathroom stall in the school! BOYS' ROOM INCLUDED!",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1595,19 +1608,19 @@
           "options": [
             {
               "text": "kill me.",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "disown me.",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "not understand.",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1627,19 +1640,19 @@
           "options": [
             {
               "text": "steal a car and go on a murder spree!",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "run away to Mexico, and grow old together in cute sombreros.",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "commit ritual suicide off YOUR FAVORITE BRIDGE!",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1665,19 +1678,19 @@
             },
             {
               "text": "want to see my best friend.",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "need some homework help, I guess?",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "can't get the last time out of my mind.",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1687,6 +1700,7 @@
     },
     {
       "noteId": 2440,
+	  "scoreValue": 0,
       "author": 1,
       "content": "I don't know Allie...",
       "triggersEndingCheck": false,
@@ -1696,6 +1710,7 @@
     },
     {
       "noteId": 2450,
+	  "scoreValue": 1,
       "author": 0,
       "content": "I promise not tell your parents! ;$; ;#;And if they freak, I'll be there with you to put out the fire.",
       "triggersEndingCheck": false,
@@ -1706,19 +1721,19 @@
           "options": [
             {
               "text": "Not a word!",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "Scout's honor!",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "Cthulhu be my witness!",
-              "scoreEffect": 0,
+              "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1728,6 +1743,7 @@
     },
     {
       "noteId": 2460,
+	  "scoreValue": 1,
       "author": 1,
       "content": "OK. OKAY! ;#;So we'll meet at your place. ;#;Today. ;#;To study. ;#;Sheesh, I never realized sweeping a girl off her feet ;#;involved beating her over the head with the broomstick, first.",
       "triggersEndingCheck": false,
@@ -1737,6 +1753,7 @@
     },
     {
       "noteId": 2470,
+	  "scoreValue": 1,
       "author": 0,
       "content": "<3 <3 <3 I'd love to study. Among other things...",
       "triggersEndingCheck": false,
@@ -1746,6 +1763,7 @@
     },
     {
       "noteId": 2480,
+	  "scoreValue": 1,
       "author": 0,
       "content": "Oh, and thank YOU, our Cyrano-in-the-middle ;)",
       "triggersEndingCheck": false,
@@ -1755,6 +1773,7 @@
     },
     {
       "noteId": 3250,
+	  "scoreValue": -1,
       "author": 0,
       "content": "OK. Bee, you know what, just... stop. ;#;You are all the things that are wrong with this. ;#;It's not the school or the teachers or any of the shitty things that you ;#;think might happen to you if you fail an exam, or if your parents find out about us. ;#;The problem is you! ;#;Alright? ;#;It's you. ...Fuck, Bee. ;#;Call me someday when you grow a pair.",
       "triggersEndingCheck": false,
@@ -1764,6 +1783,7 @@
     },
     {
       "noteId": 9999,
+	  "scoreValue": 1,
       "author": 0,
       "content": "Thank you for playing Cyranote!;#;Cyranote was created in two days, for ;#;        Global Game Jam 2018;#;in Tel Aviv, Israel!;#;Thanks to GameIS and Ironsource for hosting the jam.;#;;#;TEAM Boris and the Bergeracs",
       "triggersEndingCheck": false,
@@ -1773,7 +1793,8 @@
     },
     {
       "noteId": 10000,
-      "author": 0,
+	  "scoreValue": 1,
+      "author": 1,
       "content": "Ariel Yahav: Words, sounds, lists and sleep deprived humour.;#;Boris Ulyanskiy: Story, Writing;#;Carmin Bittermann: Sound Recording and Editing;#;Lynne Hurwitz: Game Design and Development, Vocals;#;Nadav Sheffer - Designer, Writer, Etc;#;Nataly Bendersky Shalem - Game Designer and Developer;#;Yosi Rozengarten - Game Designer & Developer;#;Ofir Hanin - Art Art Art",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
