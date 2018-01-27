@@ -177,6 +177,7 @@ public class GameManager : MonoBehaviour {
         
         if (nextNoteId == 5000)
         {
+            Debug.Log("GO TO END");
             if (gameScore <= 0) nextNoteId = 1360;
             else nextNoteId = 2360;
         }
