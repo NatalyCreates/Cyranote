@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
@@ -110,6 +111,10 @@ public class GameManager : MonoBehaviour {
                 StartCoroutine(StartNoteAnim());
             }
         }
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("OpeningScreen");
+        }
     }
 
     void UpdateSendingButtons()
@@ -120,6 +125,7 @@ public class GameManager : MonoBehaviour {
             sendToAllieButton.SetActive(false);
             sendToBethButton.SetActive(false);
             Debug.Log("GAME END");
+
         }
         else
         {
