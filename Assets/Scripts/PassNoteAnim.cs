@@ -10,11 +10,27 @@ public class PassNoteAnim : MonoBehaviour {
     public GameObject alliePaper;
     
     private void Start() {
-        PassNote(GameManager.Instance.currentNoteData.author);
+        PassNoteTo(GameManager.Instance.currentNoteData.author);
     }
 
-    void PassNote(Enums.Character from) {
-        if (from == Enums.Character.Beth)
+    public void GetNoteFromAllie() {
+
+    }
+
+    public void GetNoteFromBeth() {
+
+    }
+
+    public void PassNoteToAllie() {
+
+    }
+
+    public void PassNoteToBeth() {
+
+    }
+
+    public void PassNoteTo(Enums.Character to) {
+        if (to == Enums.Character.Allie)
         {
             transform.position = new Vector3(-950f, -920f, 0f);
             leftHand.transform.parent = transform;
@@ -28,10 +44,27 @@ public class PassNoteAnim : MonoBehaviour {
             alliePaper.transform.parent = transform;
             StartCoroutine(LerpArm(-30f, 2f));
         }
-        
     }
 
-    
+    public void PassNoteFrom(Enums.Character from) {
+        if (from == Enums.Character.Allie)
+        {
+            transform.position = new Vector3(-950f, -920f, 0f);
+            leftHand.transform.parent = transform;
+            bethPaper.transform.parent = transform;
+            StartCoroutine(LerpArm(30f, 2f));
+        }
+        else
+        {
+            transform.position = new Vector3(950f, -920f, 0f);
+            rightHand.transform.parent = transform;
+            alliePaper.transform.parent = transform;
+            StartCoroutine(LerpArm(-30f, 2f));
+        }
+
+    }
+
+
     public IEnumerator LerpArm(float newZRot, float totalTime, System.Action callback = null) {
         float elapsedTime = 0;
         float startZRot = 0;
