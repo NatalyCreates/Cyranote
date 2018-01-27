@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -46,29 +47,38 @@ public class GameManager : MonoBehaviour {
 
     public void Start() {
 
+        allieAvatar.SetActive(false);
+        bethAvatar.SetActive(false);
+        sendToAllieButton.SetActive(false);
+        sendToBethButton.SetActive(false);
+
         story = DataLoader.LoadStory();
         gameScore = 0;
         currentNoteData = story.notes.Where(noteData => noteData.noteId == FIRST_NOTE_ID).Select(noteData => noteData).ToList()[0];
         nextNoteId = currentNoteData.nextNoteId;
         Debug.Log("Current Note Id = " + currentNoteData.noteId);
-        
-        OpenNote();
+
+        StartCoroutine(StartNoteAnim());
     }
     
-    public void StartNoteAnim() {
+    public IEnumerator StartNoteAnim() {
+        yield return new WaitForSeconds(1f);
+        arms.SetInteger("SendNote", 0);
+        yield return new WaitForSeconds(0.1f);
         if (currentNoteData.author == Enums.Character.Allie)
         {
-            // set anim value to 1
+            arms.SetInteger("ReceiveNote", 1);
             // animator then calls the event to open the note
         }
         else
         {
-            // set anim value to -1
+            arms.SetInteger("ReceiveNote", -1);
             // animator then calls the event to open the note
         }
     }
     
     public void OpenNote() {
+        arms.SetInteger("ReceiveNote", 0);
 
         allieAvatar.SetActive(false);
         bethAvatar.SetActive(false);
@@ -138,13 +148,11 @@ public class GameManager : MonoBehaviour {
 
         if (currentNoteData.author == Enums.Character.Allie)
         {
-            bethAvatar.SetActive(true);
-            bethAvatar.GetComponent<CharacterScript>().SetMood(noteScore);
+            arms.SetInteger("SendNote", -1);
         }
         else
         {
-            allieAvatar.SetActive(true);
-            allieAvatar.GetComponent<CharacterScript>().SetMood(noteScore);
+            arms.SetInteger("SendNote", 1);
         }
 
         OverrideNextNoteId(selectedOptions);
@@ -156,11 +164,27 @@ public class GameManager : MonoBehaviour {
         }
         else
         {
-            currentNoteData = story.notes.Where(noteData => noteData.noteId == nextNoteId).Select(noteData => noteData).ToList()[0];
-            Debug.Log("Current Note Id = " + currentNoteData.noteId);
-            nextNoteId = currentNoteData.nextNoteId;
-            OpenNote();
+            StartCoroutine(ShowAvatar(noteScore));
         }
+    }
+
+    IEnumerator ShowAvatar(int noteScore) {
+        yield return new WaitForSeconds(2f);
+        if (currentNoteData.author == Enums.Character.Allie)
+        {
+            bethAvatar.SetActive(true);
+            bethAvatar.GetComponent<CharacterScript>().SetMood(noteScore);
+        }
+        else
+        {
+            allieAvatar.SetActive(true);
+            allieAvatar.GetComponent<CharacterScript>().SetMood(noteScore);
+        }
+        yield return new WaitForSeconds(1f);
+        currentNoteData = story.notes.Where(noteData => noteData.noteId == nextNoteId).Select(noteData => noteData).ToList()[0];
+        Debug.Log("Current Note Id = " + currentNoteData.noteId);
+        nextNoteId = currentNoteData.nextNoteId;
+        StartCoroutine(StartNoteAnim());
     }
 
     int CalcScoreFromSelectedOptions(List<OptionData> selectedOptions)

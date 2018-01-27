@@ -13,13 +13,13 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: SendNote
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -33,6 +33,28 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+--- !u!114 &114180562905692370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894242b25c7d4b845bcb3efce5175001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114841648284602608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894242b25c7d4b845bcb3efce5175001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1101 &1101046733452471536
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -330,7 +352,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: 1101076405763172300}
   - {fileID: 1101986122651027228}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114841648284602608}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -390,7 +413,7 @@ AnimatorStateMachine:
     m_Position: {x: 444, y: 144, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102804146474608284}
-    m_Position: {x: 732, y: 216, z: 0}
+    m_Position: {x: 708, y: 216, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102925785851325680}
     m_Position: {x: 456, y: 240, z: 0}
