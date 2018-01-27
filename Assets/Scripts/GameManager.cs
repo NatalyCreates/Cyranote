@@ -35,6 +35,10 @@ public class GameManager : MonoBehaviour {
     [SerializeField] GameObject allieAvatar;
     [SerializeField] GameObject bethAvatar;
 
+	[SerializeField] GameObject miniGameUi;
+	[SerializeField] GameObject miniGame;
+	[SerializeField] GameObject phoneUi;
+
     // Anim Arms
     public Animator arms;
 
@@ -100,6 +104,7 @@ public class GameManager : MonoBehaviour {
         {
             if (introShowing)
             {
+				phoneUi.SetActive (true);
                 introPanel.SetActive(false);
                 introShowing = false;
                 StartCoroutine(StartNoteAnim());
@@ -213,4 +218,16 @@ public class GameManager : MonoBehaviour {
             }
         }
     }
+
+	public void phoneBtn()
+	{
+		miniGame.SetActive (true);
+		miniGameUi.SetActive (true);
+	}
+
+	public void phoneBtnEsc()
+	{
+		miniGame.SetActive (false);
+		miniGameUi.SetActive (false);
+	}
 }

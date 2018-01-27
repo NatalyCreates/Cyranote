@@ -10,6 +10,7 @@ public class MGPlayerScript : MonoBehaviour
     [SerializeField] float speed;
 
 	[SerializeField] MGLevelCreator LvCreator;
+	[SerializeField] GameObject cam;
 
 
     // Use this for initialization
@@ -31,7 +32,7 @@ public class MGPlayerScript : MonoBehaviour
 	void OnTriggerEnter(Collider col)
 	{
 		transform.localPosition = Vector3.up;
-		Camera.main.transform.position = new Vector3(Camera.main.transform.position.x ,transform.position.y, Camera.main.transform.position.z);
+		cam.transform.position = new Vector3(cam.transform.position.x ,transform.position.y, cam.transform.position.z);
 		LvCreator.Reset ();
 	}
 }
