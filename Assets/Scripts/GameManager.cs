@@ -143,6 +143,7 @@ public class GameManager : MonoBehaviour {
     
     public void SendNote()
     {
+        AudioManager.Instance.PlaySound(Enums.SoundType.Paper);
         List<OptionData> selectedOptions = currentNoteObj.GetComponent<NoteCreator>().GetSelected();
         int noteScore;
 
@@ -191,11 +192,17 @@ public class GameManager : MonoBehaviour {
         {
             bethAvatar.SetActive(true);
             bethAvatar.GetComponent<CharacterScript>().SetMood(noteScore);
+            if (noteScore > 0) AudioManager.Instance.PlaySound(Enums.SoundType.GoodB);
+            else if (noteScore == 0) AudioManager.Instance.PlaySound(Enums.SoundType.NormalB);
+            else if (noteScore < 0) AudioManager.Instance.PlaySound(Enums.SoundType.BadB);
         }
         else
         {
             allieAvatar.SetActive(true);
             allieAvatar.GetComponent<CharacterScript>().SetMood(noteScore);
+            if (noteScore > 0) AudioManager.Instance.PlaySound(Enums.SoundType.GoodA);
+            else if (noteScore == 0) AudioManager.Instance.PlaySound(Enums.SoundType.NormalA);
+            else if (noteScore < 0) AudioManager.Instance.PlaySound(Enums.SoundType.BadA);
         }
         yield return new WaitForSeconds(1f);
         currentNoteData = story.notes.Where(noteData => noteData.noteId == nextNoteId).Select(noteData => noteData).ToList()[0];

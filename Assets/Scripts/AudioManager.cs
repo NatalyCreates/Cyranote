@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour {
     
     public static AudioManager Instance;
 	public AudioSource backgroundMusicSource;  
-    public AudioSource soundSource;  
+    public AudioSource soundSource;
 	[SerializeField] AudioClip[] goodReactionASounds;
     [SerializeField] AudioClip[] goodReactionBSounds;
     [SerializeField] AudioClip[] badReactionASounds;
