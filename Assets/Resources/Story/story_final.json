@@ -1782,14 +1782,5 @@
       "madlibs": []
     }
   ],
-  "endings": [
-    {
-      "noteId": -1,
-      "author": 0,
-      "content": "Bye!",
-      "triggersEndingCheck": false,
-      "skipCutToCharacter": false,
-      "madlibs": []
-    }
-  ]
+  "endings": []
 }
