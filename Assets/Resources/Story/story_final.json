@@ -150,24 +150,7 @@
       "content": "this just in: i wanna talk to you!",
       "triggersEndingCheck": false,
       "nextNoteId": 60,
-      "madlibs": [
-        {
-          "options": [
-            {
-              "text": "hey beth!!!",
-              "scoreEffect": 0,
-              "flavor": "",
-              "nextNoteId": 10
-            },
-            {
-              "text": "you know,;#; i might like you with a huge nose...",
-              "scoreEffect": 1,
-              "flavor": "",
-              "nextNoteId": 20
-            }
-          ]
-        }
-      ]
+      "madlibs": []
     },
     {
       "noteId": 51,
@@ -176,24 +159,7 @@
       "triggersEndingCheck": false,
       "nextNoteId": 60,
       "": "",
-      "madlibs": [
-        {
-          "options": [
-            {
-              "text": "hey beth!!!",
-              "scoreEffect": 0,
-              "flavor": "",
-              "nextNoteId": 10
-            },
-            {
-              "text": "you know,;#; i might like you with a huge nose...",
-              "scoreEffect": 1,
-              "flavor": "",
-              "nextNoteId": 20
-            }
-          ]
-        }
-      ]
+      "madlibs": []
     },
     {
       "noteId": 60,
@@ -248,7 +214,7 @@
         {
           "options": [
             {
-              "text": "m-y dad",
+              "text": "MY dad",
               "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": 100
@@ -338,7 +304,7 @@
     {
       "noteId": 120,
       "author": 1,
-      "content": "Dunno. I have no idea why;#;he'd be grumpy on the phone.",
+      "content": "Dunno. I have no idea why he'd be grumpy on the phone.",
       "triggersEndingCheck": false,
       "nextNoteId": 130
     },
@@ -346,7 +312,7 @@
       "noteId": 121,
 	  "scoreValue": 0,
       "author": 1,
-      "content": "You know my dad.;#;But I have no idea why;#;he'd be grumpy on the phone.",
+      "content": "You know my dad.;#;But I have no idea why he'd be grumpy on the phone.",
       "triggersEndingCheck": false,
       "nextNoteId": 130
     },
@@ -384,7 +350,7 @@
     {
       "noteId": 150,
       "author": 0,
-      "content": "You just don't know how lucky you are.;#;I don't get to have a fairytale family;#;like yours. No ;$",
+      "content": "You just don't know how lucky you are.;#;I don't get to have a fairytale family like yours.;#;No ;$",
       "triggersEndingCheck": false,
       "nextNoteId": -1,
       "": "",
@@ -460,7 +426,7 @@
     {
       "noteId": 170,
       "author": 0,
-      "content": "See? That's why you should be;#;extra nice to Allie.;#;I'll be a great artist one day.;#;And ;$",
+      "content": "See? That's why you should be extra nice to Allie.;#;I'll be a great artist one day.;#;And ;$",
       "triggersEndingCheck": false,
       "nextNoteId": -1,
       "madlibs": [
@@ -473,7 +439,7 @@
               "nextNoteId": 180
             },
             {
-              "text": "write you a blast-worthy punk anthem we can rock to when we're old",
+              "text": "write you a blast-worthy punk anthem\n we can rock to when we're old",
               "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": 180
@@ -491,7 +457,7 @@
     {
       "noteId": 180,
       "author": 1,
-      "content": "You go, Van Gogh.;#;I'll be sure to ;$",
+      "content": "You go, Van Gogh.;#;I'll be sure to;#;$",
       "triggersEndingCheck": false,
       "nextNoteId": -1,
       "madlibs": [
@@ -562,7 +528,7 @@
 	{
       "noteId": 210,
       "author": 0,
-      "content": "Oh so I'm the deviant!;#;$;#;And besides,;#;we even studied;$",
+      "content": "Oh so I'm the deviant!;#;$;#;And besides,;#;we even studied ;$",
       "triggersEndingCheck": false,
       "nextNoteId": -1,
       "madlibs": [
@@ -585,13 +551,13 @@
         {
           "options": [
             {
-              "text": " a little, ya know?",
+              "text": "a little, ya know?",
               "scoreEffect": 0,
               "flavor": "",
               "nextNoteId": 220
             },
             {
-              "text": " it was productive after all!",
+              "text": "it was productive after all!",
               "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": 220
@@ -642,7 +608,7 @@
               "nextNoteId": 240
             },
             {
-              "text": "I just wanted us to meet again to study.Is that really such a crime?",
+              "text": "I just wanted us to meet again to study. Is that really such a crime?",
               "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": 241
@@ -693,7 +659,7 @@
               "nextNoteId": 250
             },
             {
-              "text": "We met to study Math, not anatomy!",
+              "text": "We met to study math, not anatomy!",
               "scoreEffect": 0,
               "flavor": "",
               "nextNoteId": 251
@@ -724,7 +690,7 @@
               "nextNoteId": 250
             },
             {
-              "text": "We met to study Math, not anatomy!",
+              "text": "We met to study math, not anatomy!",
               "scoreEffect": 1,
               "flavor": "",
               "nextNoteId": 251
@@ -755,7 +721,7 @@
               "nextNoteId": 260
             },
             {
-              "text": "you got so excited from the idea you'll help me study, your face almost exploded! ",
+              "text": "you got so excited from the idea you'll help me study, your face almost exploded!",
               "scoreEffect": 2,
               "flavor": "",
               "nextNoteId": 261
@@ -786,7 +752,7 @@
               "nextNoteId": 260
             },
             {
-              "text": "you got so excited from the idea you'll help me study, your face almost exploded! ",
+              "text": "you got so excited from the idea you'll help me study, your face almost exploded!",
               "scoreEffect": 0,
               "flavor": "",
               "nextNoteId": 261
@@ -811,7 +777,7 @@
     {
       "noteId": 261,
       "author": 1,
-      "content": "The only thing that exploded;#;was your mind when I blew it with SCIENCE!;#;Your cheap shots don't work on me.;#;I know all your tricks :)",
+      "content": "The only thing that exploded was your mind when I blew it with;#;SCIENCE!;#;Your cheap shots don't work on me.;#;I know all your tricks :)",
       "triggersEndingCheck": false,
       "nextNoteId": 270
     },
@@ -825,33 +791,16 @@
     {
       "noteId": 270,
       "author": 0,
-      "content": "Just because we played all those;#;video games doesn't mean you know ALL I got!",
+      "content": "Just because we played all those video games;#;doesn't mean you know ALL I got!",
       "triggersEndingCheck": false,
       "nextNoteId": 280,
       "": "",
-      "madlibs": [
-        {
-          "options": [
-            {
-              "text": "Besides, I figured my best friend will come save me from myself, ya know?",
-              "scoreEffect": -1,
-              "flavor": "",
-              "nextNoteId": 240
-            },
-            {
-              "text": "I just wanted us to meet again to study.Is that really such a crime?",
-              "scoreEffect": 1,
-              "flavor": "",
-              "nextNoteId": 241
-            }
-          ]
-        }
-      ]
+      "madlibs": []
     },
     {
       "noteId": 280,
       "author": 0,
-      "content": "Man, do I miss that ;$;#;May it rest in peace. ",
+      "content": "Man, do I miss that ;$;#;May it rest in peace.",
       "triggersEndingCheck": false,
       "nextNoteId": -1,
       "": "",
@@ -886,7 +835,7 @@
       "noteId": 291,
 	  "scoreValue": 1,
       "author": 1,
-      "content": "You always were amazing in Prince of Persia.;#;I mostly liked watching you, I think.;#;I guess I'm more of a Shadow Prince than the hero;#;that gets the princess",
+      "content": "You always were amazing in Prince of Persia.;#;I mostly liked watching you, I think.;#;I guess I'm more of a Shadow Prince;#;than the hero that gets the princess",
       "triggersEndingCheck": false,
       "nextNoteId": 300
     },
@@ -918,7 +867,7 @@
       "noteId": 330,
 	  "scoreValue": 1,
       "author": 0,
-      "content": "Aww. Who said I wanted to marry her;#;I just need someone I can beat;#;in Street Fighter again!",
+      "content": "Aww.;#;Who said I wanted to marry her?;#;I just need someone I can beat at;#;Street Fighter again!",
       "triggersEndingCheck": false,
       "nextNoteId": 340
     },
@@ -995,7 +944,7 @@
               "nextNoteId": -1
             },
             {
-              "text": "I'm baring my heart over here. I really want us to talk",
+              "text": "I'm baring my heart over here. I want us to talk",
               "scoreEffect": 4,
               "flavor": "",
               "nextNoteId": -1
@@ -1027,7 +976,7 @@
       ]
     },
     {
-      "noteId": 350,
+      "noteId": 351,
       "author": 0,
       "content": "Wasn't trying too hard last time!;#;Listen, bee,;#;$;#;I see you walking down the hallway,;#;hide in classes THE MOMENT you see me.;#;$",
       "triggersEndingCheck": true,
@@ -1042,7 +991,7 @@
               "nextNoteId": -1
             },
             {
-              "text": "I'm baring my heart over here. I really want us to talk",
+              "text": "I'm baring my heart over here. I want us to talk",
               "scoreEffect": 0,
               "flavor": "",
               "nextNoteId": -1
@@ -1077,7 +1026,7 @@
     {
       "noteId": 1360,
       "author": 1,
-      "content": "What do you want me to say? :$; ;#;I'm so embarrassed... ;#;And seeing you every day in class;#;;$",
+      "content": "What do you want me to say? ;$; ;#;I'm so embarrassed... ;#;And seeing you every day in class;#;$",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 1370,
@@ -1339,7 +1288,7 @@
     {
       "noteId": 2360,
       "author": 1,
-      "content": "What do you want me to say? ;#;;$;;#;I'm so embarrassed... ;#;And seeing you ;$ ",
+      "content": "What do you want me to say?;#;$;#;I'm so embarrassed...;#;And seeing you ;$",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 2370,
@@ -1381,7 +1330,7 @@
     {
       "noteId": 2370,
       "author": 0,
-      "content": "So talk to me, ;$;;#;I know ;$",
+      "content": "So talk to me, ;$;#;I know ;$",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 2380,
@@ -1408,7 +1357,7 @@
             },
             {
               "text": "asshole,",
-              "scoreEffect": 0,
+              "scoreEffect": -1,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1435,7 +1384,7 @@
     {
       "noteId": 2380,
       "author": 1,
-      "content": "Oh, it's just a stroll in the park for you! ;#;As if I don't have ;$; to deal with!;#;I can't just go around telling everyone what happened!",
+      "content": "Oh, it's just a stroll in the park for you!;#;As if I don't have ;$; to deal with!;#;I can't just go around telling everyone what happened!",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 2390,
@@ -1581,26 +1530,25 @@
       "author": 1,
       "content": "NO PLEASE DON'T! My parents will ;$",
       "triggersEndingCheck": false,
-      "skipCutToCharacter": true,
       "nextNoteId": 2430,
       "madlibs": [
         {
           "options": [
             {
               "text": "kill me.",
-              "scoreEffect": 1,
+              "scoreEffect": 0,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "disown me.",
-              "scoreEffect": 1,
+              "scoreEffect": 0,
               "flavor": "",
               "nextNoteId": -1
             },
             {
               "text": "not understand.",
-              "scoreEffect": 1,
+              "scoreEffect": 0,
               "flavor": "",
               "nextNoteId": -1
             }
@@ -1611,9 +1559,8 @@
     {
       "noteId": 2430,
       "author": 0,
-      "content": "Screw them! We'll ;$ ",
+      "content": "Screw them!;#;We'll ;$",
       "triggersEndingCheck": false,
-      "skipCutToCharacter": true,
       "nextNoteId": 2440,
       "madlibs": [
         {
@@ -1646,7 +1593,7 @@
       "content": "We could, you know, maybe just hang out again? ;#;Because I really ;$",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
-      "nextNoteId": 2440,
+      "nextNoteId": 2445,
       "madlibs": [
         {
           "options": [
@@ -1679,10 +1626,10 @@
       ]
     },
     {
-      "noteId": 2440,
+      "noteId": 2445,
 	  "scoreValue": 0,
       "author": 1,
-      "content": "I don't know Allie...",
+      "content": "I don't know, Allie...",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 2450,
@@ -1692,7 +1639,7 @@
       "noteId": 2450,
 	  "scoreValue": 1,
       "author": 0,
-      "content": "I promise not tell your parents! ;$; ;#;And if they freak, I'll be there with you to put out the fire.",
+      "content": "I promise not tell your parents!;#;$;#;And if they freak,;#;I'll be there with you to put out the fire.",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 2460,
@@ -1725,9 +1672,8 @@
       "noteId": 2460,
 	  "scoreValue": 1,
       "author": 1,
-      "content": "OK. OKAY! ;#;So we'll meet at your place. ;#;Today. ;#;To study. ;#;Sheesh, I never realized sweeping a girl off her feet ;#;involved beating her over the head with the broomstick, first.",
+      "content": "OK. OKAY!;#;So we'll meet at your place.;#;Today. To study.;#;Sheesh, I never realized sweeping a girl off her feet ;#;involved beating her over the head with the broomstick, first.",
       "triggersEndingCheck": false,
-      "skipCutToCharacter": true,
       "nextNoteId": 2470,
       "madlibs": []
     },
@@ -1735,9 +1681,8 @@
       "noteId": 2470,
 	  "scoreValue": 1,
       "author": 0,
-      "content": "<3 <3 <3 I'd love to study. Among other things...",
+      "content": "<3 <3 <3 ^_^ I'd love to study. Among other things...",
       "triggersEndingCheck": false,
-      "skipCutToCharacter": true,
       "nextNoteId": 2480,
       "madlibs": []
     },
@@ -1745,7 +1690,7 @@
       "noteId": 2480,
 	  "scoreValue": 1,
       "author": 0,
-      "content": "Oh, and thank YOU, our Cyrano-in-the-middle ;)",
+      "content": "Oh, and thank YOU, our Cyrano-in-the-middle :)",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 9999,
@@ -1754,7 +1699,7 @@
     {
       "noteId": 3250,
 	  "scoreValue": -1,
-      "author": 0,
+      "author": 1,
       "content": "OK. Bee, you know what, just... stop. ;#;You are all the things that are wrong with this. ;#;It's not the school or the teachers or any of the shitty things that you ;#;think might happen to you if you fail an exam, or if your parents find out about us. ;#;The problem is you! Alright? ;#;It's you. ...Fuck, Bee. ;#;Call me someday when you grow a pair.",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
@@ -1764,8 +1709,8 @@
     {
       "noteId": 9999,
 	  "scoreValue": 1,
-      "author": 1,
-      "content": "Thank you for playing Cyranote!;#;Cyranote was created in two days, for ;#;        Global Game Jam 2018;#;in Tel Aviv, Israel!;#;Thanks to GameIS and Ironsource for hosting the jam.;#;;#;TEAM Boris and the Bergeracs",
+      "author": 0,
+      "content": "Thank you for playing Cyranote!;#;Cyranote was created in two days, for ;#;       Global Game Jam 2018;#;in Tel Aviv, Israel!;#;Thanks to GameIS and Ironsource;#;   for hosting the jam.;#;TEAM Boris and the Bergeracs",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": 10000,
@@ -1774,8 +1719,8 @@
     {
       "noteId": 10000,
 	  "scoreValue": 1,
-      "author": 0,
-      "content": "Ariel Yahav: Words, sounds, lists and sleep deprived humour.;#;Boris Ulyanskiy: Story, Writing;#;Carmin Bittermann: Sound Recording and Editing;#;Lynne Hurwitz: Game Design and Development, Vocals;#;Nadav Sheffer - Designer, Writer, Etc;#;Nataly Bendersky Shalem - Game Designer and Developer;#;Yosi Rozengarten - Game Designer & Developer;#;Ofir Hanin - Art Art Art",
+      "author": 1,
+      "content": "Ariel Yahav - Words, Sounds, Lists and sleep deprived Humour;#;Boris Ulyanskiy - Story, Writing;#;Carmin Bittermann: Sound Recording and Editing;#;Lynne Hurwitz: Game Design and Development, Vocals;#;Nadav Sheffer - Designer, Writer, Etc;#;Nataly Bendersky Shalem - Game Design, Programming;#;Yosi Rozengarten - Game Designer & Developer;#;Ofir Hanin - Art Art Art!",
       "triggersEndingCheck": false,
       "skipCutToCharacter": true,
       "nextNoteId": -500,
