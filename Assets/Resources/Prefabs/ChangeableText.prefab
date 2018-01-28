@@ -129,8 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9ef673c36c9afb47b39b28f3b159e03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AllieFont: {fileID: 12800000, guid: 2842f2e93ec9a324f8d5a604771b853a, type: 3}
-  BethFont: {fileID: 12800000, guid: 42043575ca264cf409fa2a304837ff74, type: 3}
+  AllieFont: {fileID: 12800000, guid: b9ae81dac8d1dda4a9c4006a08be4400, type: 3}
+  BethFont: {fileID: 12800000, guid: 355fda88ad4a7dc488a04cd3b1ec1059, type: 3}
 --- !u!114 &114598455377654944
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.44117647, g: 0, b: 0.3012171, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 50
-    m_FontStyle: 2
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
     m_MaxSize: 50
@@ -176,24 +176,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 114598455377654944}
-  options:
-  - text: 
-    scoreEffect: 0
-    flavor: 0
-    nextNoteId: 0
-  - text: 
-    scoreEffect: 0
-    flavor: 0
-    nextNoteId: 0
-  - text: 
-    scoreEffect: 0
-    flavor: 0
-    nextNoteId: 0
-  selected:
-    text: 
-    scoreEffect: 0
-    flavor: 0
-    nextNoteId: 0
 --- !u!114 &114894091746180506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -361,7 +343,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1397965680691330}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1576.0002, y: 196.99994, z: 0}
+  m_LocalPosition: {x: -1576.0002, y: 200, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224381646507925106}
@@ -371,6 +353,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -1576.0002, y: 196.99994}
-  m_SizeDelta: {x: 530, y: 66.70001}
+  m_AnchoredPosition: {x: -1576.0002, y: 200}
+  m_SizeDelta: {x: 530, y: 100}
   m_Pivot: {x: -0.000000048428774, y: 0.5}

@@ -65,7 +65,7 @@ public class NoteCreator : MonoBehaviour
                     textObj.GetComponent<RectTransform>().anchoredPosition = writingPos;
                 }
                 textObj.GetComponent<Text>().text = contentPart;
-                textObj.GetComponent<RectTransform>().sizeDelta = new Vector2(28 * contentPart.Length, 67);
+                textObj.GetComponent<RectTransform>().sizeDelta = new Vector2(28 * contentPart.Length, 100);
                 lastTransform = textObj.transform;
             }
         }

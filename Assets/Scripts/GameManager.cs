@@ -65,6 +65,8 @@ public class GameManager : MonoBehaviour {
         currentNoteData = story.notes.Where(noteData => noteData.noteId == FIRST_NOTE_ID).Select(noteData => noteData).ToList()[0];
         nextNoteId = currentNoteData.nextNoteId;
         Debug.Log("Current Note Id = " + currentNoteData.noteId);
+
+        StartCoroutine(ShowInstruction());
     }
     
     private IEnumerator ShowInstruction() {
@@ -189,10 +191,7 @@ public class GameManager : MonoBehaviour {
             if (gameScore <= 0) nextNoteId = 1360;
             else nextNoteId = 2360;
         }
-        else
-        {
-            StartCoroutine(ShowAvatar(noteScore));
-        }
+        StartCoroutine(ShowAvatar(noteScore));
     }
 
     IEnumerator ShowAvatar(int noteScore) {

@@ -636,6 +636,11 @@ MonoBehaviour:
   neutral: {fileID: 21300000, guid: 3450b8529b364754da799bf625f7b87e, type: 3}
   positive: {fileID: 21300000, guid: 4b641a370e2bc634f856590e19b4462c, type: 3}
   negative: {fileID: 21300000, guid: 496b1c32fed5fe643b12b6edb867ad3c, type: 3}
+--- !u!1 &946272520 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1977299246255718, guid: 7dd0d226475926e49b49b5e2bb207c0f,
+    type: 2}
+  m_PrefabInternal: {fileID: 977754863}
 --- !u!1001 &977754863
 Prefab:
   m_ObjectHideFlags: 0
@@ -969,6 +974,7 @@ MonoBehaviour:
     nextNoteId: 0
     madlibs: []
   introPanel: {fileID: 159038753}
+  introInstruction: {fileID: 946272520}
   noteAlliePrefab: {fileID: 1064724791501394, guid: 58142ef2a7b97c344a9daee350207114,
     type: 2}
   noteBethPrefab: {fileID: 1856682358849516, guid: d6f1eda458a330a438336d1c61448c21,
