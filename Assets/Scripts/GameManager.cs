@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour {
     private int GAME_OVER_NOTE_ID = -500;
     private int END_STORY_NOTE_ID = 5000;
 
-    private float INSTRUCTIONS_READING_TIME = 3f;
+    private float INSTRUCTIONS_READING_TIME = 2f;
 
     private StoryData story;
     public NoteData currentNoteData;
@@ -75,9 +75,9 @@ public class GameManager : MonoBehaviour {
     }
 
     public IEnumerator StartNoteAnim() {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.4f);
         arms.SetInteger("SendNote", 0);
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.4f);
         if (currentNoteData.author == Enums.Character.Allie)
         {
             arms.SetInteger("ReceiveNote", 1);
@@ -153,20 +153,17 @@ public class GameManager : MonoBehaviour {
     
     public void SendNote()
     {
-        AudioManager.Instance.PlaySound(Enums.SoundType.Paper);
         List<OptionData> selectedOptions = currentNoteObj.GetComponent<NoteCreator>().GetSelected();
         int noteScore;
 
         if (selectedOptions.Count == 0) noteScore = currentNoteData.scoreValue;
         else
         {
-            noteScore = CalcScoreFromSelectedOptions(selectedOptions);
-            Debug.Log("Note Score was: " + noteScore);
             noteScore = selectedOptions.Sum(opt => opt.scoreEffect);
-            Debug.Log("Note Score was: " + noteScore);
         }
 
         gameScore += noteScore;
+        Debug.Log("Game Score: " + gameScore);
 
         Destroy(currentNoteObj);
 
@@ -195,7 +192,9 @@ public class GameManager : MonoBehaviour {
     }
 
     IEnumerator ShowAvatar(int noteScore) {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.4f);
+        AudioManager.Instance.PlaySound(Enums.SoundType.Paper);
+        yield return new WaitForSeconds(0.6f);
         if (currentNoteData.author == Enums.Character.Allie)
         {
             bethAvatar.SetActive(true);
@@ -212,23 +211,13 @@ public class GameManager : MonoBehaviour {
             else if (noteScore == 0) AudioManager.Instance.PlaySound(Enums.SoundType.NormalA);
             else if (noteScore < 0) AudioManager.Instance.PlaySound(Enums.SoundType.BadA);
         }
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         currentNoteData = story.notes.Where(noteData => noteData.noteId == nextNoteId).Select(noteData => noteData).ToList()[0];
         Debug.Log("Current Note Id = " + currentNoteData.noteId);
         nextNoteId = currentNoteData.nextNoteId;
         StartCoroutine(StartNoteAnim());
     }
 
-    int CalcScoreFromSelectedOptions(List<OptionData> selectedOptions)
-    {
-        int sum = 0;
-        foreach(OptionData opt in selectedOptions)
-        {
-            sum += opt.scoreEffect;
-        }
-        return sum;
-    }
-    
     void OverrideNextNoteId(List<OptionData> selectedOptions)
     {
         nextNoteId = currentNoteData.nextNoteId;

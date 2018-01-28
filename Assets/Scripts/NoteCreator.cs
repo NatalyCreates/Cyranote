@@ -8,9 +8,9 @@ public class NoteCreator : MonoBehaviour
     [SerializeField] GameObject normalTextPre;
     [SerializeField] GameObject changeableTextPre;
 
-    Vector2 writingPos = new Vector2(-1400, 250);
+    Vector2 writingPos = new Vector2(-1350, 265);
     [SerializeField]float textWidth;
-    [SerializeField]float textHight;
+    [SerializeField]float textHeight;
 
     private NoteData noteData;
 
@@ -18,7 +18,6 @@ public class NoteCreator : MonoBehaviour
 
 	void Start () {
         noteData = GameManager.Instance.currentNoteData;
-
         string[] contentStructure = noteData.content.Split(';');
 
         int changeableCount = 0;
@@ -29,7 +28,7 @@ public class NoteCreator : MonoBehaviour
             if (contentPart == "#")
             {
                 lastTransform = null;
-                writingPos = new Vector2(writingPos.x, writingPos.y - textHight);
+                writingPos = new Vector2(writingPos.x, writingPos.y - textHeight);
             }
             else if (contentPart == "$")
             {

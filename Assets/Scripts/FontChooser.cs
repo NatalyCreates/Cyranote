@@ -16,6 +16,7 @@ public class FontChooser : MonoBehaviour {
         else
         {
             GetComponent<Text>().font = BethFont;
+            GetComponent<Text>().fontStyle = FontStyle.Bold;
         }
 	}
 }
